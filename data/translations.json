@@ -1,1 +1,542 @@
-{}
+{
+  "AgriciDaniel/claude-seo": {
+    "source": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+    "zh": "適用於 Claude Code 的通用 SEO 技能。包含 26 個子技能與 19 個子代理，涵蓋技術 SEO、E-E-A-T、結構化資料（schema）、GEO/AEO、代理就緒度（Lighthouse Agentic Browsing、WebMCP、llms.txt）、反向連結、在地 SEO、電子商務、國際 SEO、Google API，以及 PDF/Excel 報表。另有 9 個選用擴充功能，可取得即時 SEO 數據。"
+  },
+  "Arjun-Ingole/hop": {
+    "source": "Install Linux next to Windows without a USB stick",
+    "zh": "在 Windows 旁安裝 Linux，無需 USB 隨身碟"
+  },
+  "BookracyFOS/bookracy": {
+    "source": "Free, open-source book search, reader and library.",
+    "zh": "免費、開源的書籍搜尋、閱讀器與圖書館系統。"
+  },
+  "BryceYuuu/RUN": {
+    "source": "RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。",
+    "zh": "RUN · 润：中國護照持有人的海外移居手冊。歐洲 36 國 110 條移民路線 + 13 個主要移民地區：數位游牧簽證、歐盟藍卡、技術移民、留學轉工作、創業自雇、投資居留，每條附官方來源，持續更新。"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "source": "Chrome DevTools for coding agents",
+    "zh": "供程式碼代理使用的 Chrome DevTools"
+  },
+  "CzJam/gjgjxweb": {
+    "source": "《搞机工具箱》Web移植版",
+    "zh": "《搞機工具箱》Web 移植版"
+  },
+  "D3voz/openjutsu": {
+    "source": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.",
+    "zh": "影片一鍵角色替換：一款開源、可在本機執行的 Higgsfield Genjutsu 替代方案，基於 ComfyUI 與 MiniMax H3，並支援 FLUX.3 Klein 重新打光。"
+  },
+  "DIYgod/pinky": {
+    "source": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
+    "zh": "讓 AI 使用你的 iPhone 或 Android 手機，並由你全程參與：無論是來自 macOS、Windows 或 Linux 的任何 MCP 代理，或 Pinky 本身，都直接在手機上運作。"
+  },
+  "DenisSergeevitch/ex-ussr-kinship-research": {
+    "source": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+    "zh": "為 AI 代理（Codex、Claude Code）打造、以證據為優先的族譜技能：涵蓋前蘇聯地區的教會登記簿、民政、軍事、流放與鎮壓紀錄。以你的語言回覆。"
+  },
+  "Eglantine-Community/Eglantine": {
+    "source": "VERY experimental Nintendo Switch 2 emulator",
+    "zh": "非常實驗性的 Nintendo Switch 2 模擬器"
+  },
+  "Eynnzerr/TelemetryCleaner": {
+    "source": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
+    "zh": "基於 Shizuku 免 Root 清除國產安卓的 SystemHelper、RegService 等系統預裝隱私資料蒐集模組"
+  },
+  "FrigadeHQ/yogurt": {
+    "source": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
+    "zh": "私密的 AI 會議筆記，資料只留在你的電腦上。適用於 Mac、Windows 與 Linux 的免費開源 Granola 替代方案。"
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+    "source": "Keep your coding agent up to date with the latest web best practices",
+    "zh": "讓你的程式代理隨時掌握最新的網頁最佳實踐"
+  },
+  "HKUDS/CLI-Anything": {
+    "source": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "zh": "「CLI-Anything：讓所有軟體都原生支援代理」-- CLI-Hub: https://clianything.cc/"
+  },
+  "HKUDS/DeepTutor": {
+    "source": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "zh": "DeepTutor：終身個人化家教。https://deeptutor.info/."
+  },
+  "HRuiCcc/RuiC-PoseAtlas": {
+    "source": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。",
+    "zh": "RuiC-PoseAtlas｜姿態 + 服裝雙圖鑑：288 組人體姿態 × 5 視角 × 1,439 張人台線稿，加上 1,407 套無人物服裝 × 8 分類 × 86 個三語標籤。中／英／日切換、搜尋篩選、鍵盤瀏覽、原圖下載，純靜態、零依賴。"
+  },
+  "HolyArrs/HolyArrs": {
+    "source": "One self-hosted app for your shows, movies and music.",
+    "zh": "一款自架應用程式，用來管理你的節目、電影與音樂。"
+  },
+  "Hut-hzf/ung220z-tool": {
+    "source": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+    "zh": "ung220z-tool 是一款針對 UNG220Z（九聯／Unionman 中國移動光貓）的一鍵憑證擷取工具，僅限在你自己的裝置上使用，用於找回遺忘的管理密碼、遷移寬頻設定或進行安全自查。"
+  },
+  "HybridRobotics/supermimic": {
+    "source": "Humanoid whole-body motion tracking with one differentiable world model.",
+    "zh": "類人全身動作追蹤，採用單一可微分世界模型。"
+  },
+  "IainKay/ram-altman": {
+    "source": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+    "zh": "監控你的記憶體，並把任何「相當糟糕」的閒置容量直接回報給 OpenAI 執行長。"
+  },
+  "Immortal-Protocols/lastbook": {
+    "source": "Offline knowledge AI, maps and videos for survival and rebuilding",
+    "zh": "離線知識 AI、地圖與影片，用於求生與重建。"
+  },
+  "Jakeschincariol/instagram-agent-skill": {
+    "source": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT.",
+    "zh": "十三項用於經營 Instagram 帳號的 Claude 技能：依 26 種評分開場公式製作 Reels、爆紅主題研究技能、文案檢查工具，以及人性化改寫工具。免費，採 MIT 授權。"
+  },
+  "JosssphZhou/poki": {
+    "source": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
+    "zh": "Poki 會像你一樣使用你的 iPhone。這是一款開源代理應用程式，可在 iPhone 上執行、讀取螢幕，並使用你自己的模型帳號，在真實應用程式中點按、輸入與滑動。"
+  },
+  "JuneYaooo/rea-video": {
+    "source": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
+    "zh": "逐鏡頭逆向分析任何影片：判斷是實拍、AI 生成還是程式製作，並說明如何重製。拆解結果以開放的 VIDEO.md 格式輸出。逆向一切影片，逐個鏡頭看是拍的、AI 生成的還是程式碼做的，再告訴你怎麼復刻；拆解結果按 VIDEO.md 格式輸出。"
+  },
+  "JustAResearcher/gpu-unlock-ada": {
+    "source": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+    "zh": "適用於 RTX 4090 的 GPU 張量解鎖原始碼，以及實驗性的 RTX 4070 Ti SUPER 支援；韌體於本機生成。"
+  },
+  "KKKKhazix/agent-autoloop": {
+    "source": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+    "zh": "讓你的命令列代理在背景自行接案、自行追蹤到底；平時不打擾你，遇到拿不定主意的事才發送卡片請你拍板定奪。"
+  },
+  "Kianuni/Erosion-CN": {
+    "source": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration & MobileGestalt Toolbox (Bilingual EN/ZH)",
+    "zh": "iOS / iPadOS 系統設定與 MobileGestalt 研究工具箱（中英雙語 · 防白蘋果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration & MobileGestalt Toolbox (Bilingual EN/ZH)"
+  },
+  "Lee-xeo/Claude-Cage": {
+    "source": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+    "zh": "Cage：為 Claude 特製的輕量化虛擬機，徹底杜絕網路洩漏。支援多平台，提供多帳號管理、遠端部署、行動端操控。"
+  },
+  "Leviidev/Henge": {
+    "source": "Emulate macOS on iOS and iPadOS",
+    "zh": "在 iOS 與 iPadOS 上模擬 macOS"
+  },
+  "Minireel/HGhub": {
+    "source": "Plug-in media player",
+    "zh": "外掛式媒體播放器"
+  },
+  "Motionsites-AI/claude-skill": {
+    "source": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+    "zh": "免費的 Claude 技能：讓 Claude 打造獲獎等級、電影感十足的著陸頁。由 MotionSites 開發。"
+  },
+  "N1nEmAn/sapper-v2": {
+    "source": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
+    "zh": "Nüwa 樹的第一顆果實——一支自主運作的 AI 滲透測試軍團（634 支隊伍的冠軍，8 小時無人值守，以 10 億 token 擊敗 45 億）。它不只是工具：設計上即可演化。歡迎在 Nüwa 基金會（創作／語言／歷史）上培育你自己的果實。"
+  },
+  "NiazMorshed2007/reanimate": {
+    "source": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+    "zh": "一項 Claude Code 技能，可逐格逆向分析任何動畫，再驗證複製品的動態是否完全一致。"
+  },
+  "Noniv/abyssal-garden": {
+    "source": "A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is generated by code with WebGPU (no images, models or sound files), all in a single 97 KB HTML file.",
+    "zh": "一個如夢似幻的水下世界，你可以直接在瀏覽器中遨遊：搖曳的海帶森林、光束、沉船與鬼蝠魟。一切都由程式碼透過 WebGPU 生成（不含圖片、模型或音效檔），全部打包在單一 97 KB 的 HTML 檔案中。"
+  },
+  "Nutlope/hallmark": {
+    "source": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "zh": "適用於 Claude Code、Cursor 與 Codex 的反 AI 粗製濫造設計技能。"
+  },
+  "RoutineMiku/apkstart": {
+    "source": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+    "zh": "Windows 上的安卓應用程式執行器：雙擊 APK 即可安裝，應用程式以獨立視窗與桌面圖示執行，內建 QEMU 執行環境。"
+  },
+  "Sandflow-ai/sand3d": {
+    "source": "3D modeling in Python, built for LLMs.",
+    "zh": "專為大型語言模型打造的 Python 3D 建模工具。"
+  },
+  "Tracer-Cloud/opensre": {
+    "source": "The open-source agent for CI/CD reliability.",
+    "zh": "開源的 CI/CD 可靠性代理。"
+  },
+  "Verlintas/NOIR": {
+    "source": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+    "zh": "手機隱私稽核：用 adb 掃描安卓應用程式的權限、回報端點與資料流向，並提出可還原的處置方式。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
+  },
+  "WoYun520/gif-factory": {
+    "source": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。",
+    "zh": "GIF 工廠：依風格製作像素風、人物與寵物、黏土吉祥物、光柵卡與動態海報的 GIF Skill。"
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+    "source": "The only downloader you need. 下载器的集大成者。",
+    "zh": "你唯一需要的下載器。下載器的集大成者。"
+  },
+  "ZiChuanLan/agent-purge": {
+    "source": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
+    "zh": "一個人格，多個 AI 編碼代理。替換或注入 codex、claude、opencode、grok、omp、hermes、pi、zcode 的系統提示詞，並附本機網頁主控台。"
+  },
+  "ZiChuanLan/freebie-radar": {
+    "source": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+    "zh": "白嫖與資訊資源聚合雷達：100+ 個來源定時採集，AI 二審過濾假福利，依取得方式分級隔離抽獎、試用、推廣，並透過 Telegram 即時推送。"
+  },
+  "ag-ui-protocol/ag-ui": {
+    "source": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "zh": "AG-UI：Agent-User Interaction Protocol。將 Agent 帶入前端應用程式。"
+  },
+  "agentes-chat/agentes-chat": {
+    "source": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+    "zh": "開源、可自架的 Slack 替代方案，讓團隊與 AI Agent 在頻道與私訊中協作。Agent 可運行於 Claude、ChatGPT/Codex、Gemini 或 Grok，並具備 MCP 工具、專屬電腦與瀏覽器、例行任務、記憶與核准機制。提供網頁、桌面與手機應用程式。Docker Compose + Postgres。AGPL-3.0。"
+  },
+  "alibaba/open-code-review": {
+    "source": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "zh": "安全、快速、高效，經阿里巴巴規模實戰驗證。混合架構程式碼審查工具：確定性流程 + LLM Agent，精準行級註解，內建多語言規則集（NPE、執行緒安全、XSS、SQL 注入），相容 OpenAI 與 Anthropic。"
+  },
+  "andyhuo520/digital-human-koubo": {
+    "source": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+    "zh": "從一張照片生成 AI 數位人說話影片：Renoise MCP 生成 + 5 種剪輯風格 + 48 個創作者等級包裝元件。適用於 Claude Code / Codex / OpenClaw / WorkBuddy … 等的 Agent 技能。"
+  },
+  "anefzaoui/misterdownloadmanager": {
+    "source": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+    "zh": "misterdownloadmanager：終極開源、從零以純 Rust 撰寫的乾淨室（clean-room）下載管理器，支援 Windows、Mac 與 Linux。"
+  },
+  "anhao/ai-pose-gallery-zh": {
+    "source": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
+    "zh": "中文版 AI 姿勢參考圖庫 · 1439 組 / 2878 張圖片 · 完整漢化 · 零依賴靜態畫廊"
+  },
+  "anomalyco/rune": {
+    "source": "Rune: Native UI framework",
+    "zh": "Rune：原生 UI 框架"
+  },
+  "anonnerdfrenzy/survival-llm": {
+    "source": "A free AI assistant and survival library that runs on your own computer, with no internet needed. Shows the source of every answer.",
+    "zh": "一款免費的 AI 助理與求生資料庫，可在你自己的電腦上執行，無需網路。每個答案都會顯示來源。"
+  },
+  "anthropics/skills": {
+    "source": "Public repository for Agent Skills",
+    "zh": "Agent Skills 公開儲存庫"
+  },
+  "apex-compute/ANR": {
+    "source": "Apex Neural Rendering (ANR) by Apex Compute",
+    "zh": "Apex Neural Rendering (ANR)，由 Apex Compute 開發"
+  },
+  "aschmelyun/print-my-profile-pic": {
+    "source": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.",
+    "zh": "笑一個！為這個儲存庫點星，你的大頭貼就會從收據印表機列印出來。"
+  },
+  "backnotprop/plannotator": {
+    "source": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+    "zh": "讓你時刻掌握並駕馭 Agent 的工作區——規劃、決策、計畫、標註、審查程式碼、與團隊分享，並一鍵將所有回饋傳送給 Agent。"
+  },
+  "benjitaylor/skills": {
+    "source": "Skills for AI coding agents.",
+    "zh": "AI 程式設計代理的技能。"
+  },
+  "caru-ini/stack-diagram": {
+    "source": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+    "zh": "Agent 技能：用一句話描述你的技術堆疊，即可獲得附官方標誌的架構圖。"
+  },
+  "cathrynlavery/diagram-design": {
+    "source": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "zh": "適用於 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 與 Pi 的編輯式圖表設計。45 種圖表類型。獨立 HTML + SVG。無陰影。拒絕 Mermaid 式粗製濫造。"
+  },
+  "ccch1mneyyy/dsh-Go": {
+    "source": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+    "zh": "dsh-go — 把 DeepSeek Harness 裝進口袋：在手機本機執行，也能遙控你的電腦。"
+  },
+  "chadyi/StudyOnTV": {
+    "source": "StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.",
+    "zh": "StudyOnTV（Tiledaoti TV）— 開源 Android TV 應用程式，孩子需回答問題才能解鎖螢幕時間。完全在電視上執行：無需伺服器、無需帳號。家長掃描 QR Code，即可透過區域網路管理題目。先學習，再觀看。"
+  },
+  "cloudflare/security-audit-skill": {
+    "source": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "zh": "適用於程式碼代理的技能，用於多階段安全稽核，產出經獨立驗證、機器可讀的發現結果。"
+  },
+  "cursor/plugins": {
+    "source": "Cursor plugin specification and official plugins",
+    "zh": "Cursor 外掛規格與官方外掛"
+  },
+  "daveebbelaar/bama": {
+    "source": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
+    "zh": "BAMA：Build Any Mac App。Agent 技能，用於研究、複製、設計、建置、最佳化與測試原生 macOS 應用程式（使用 Swift 與 SwiftUI）。"
+  },
+  "deepseek-ai/chat-demo": {
+    "source": "Chat Demo",
+    "zh": "聊天示範"
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+    "source": "Towards a More Autonomous Agent System",
+    "zh": "邁向更自主的 Agent 系統"
+  },
+  "designfuchen/word-atlas": {
+    "source": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
+    "zh": "詞光 · Word Atlas — 附插圖的雅思詞彙，收錄 7,298 個單字，提供英式／美式發音與 FSRS 複習。開源應用程式 + CC BY 4.0 資料集。"
+  },
+  "dream-num/univer": {
+    "source": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+    "zh": "使用 Univer Office SDK 打造你自己的 AI 辦公室。將編輯、計算、協作與檔案處理整合進你的產品，供人員與 AI Agent 使用。基於可擴充的開源核心建構。"
+  },
+  "elementalsouls/Claude-BugHunter": {
+    "source": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "zh": "用於漏洞挖掘與外部紅隊作業的 Claude Code 技能套件：82 項技能、15 個斜線指令，收錄 24 種核心漏洞類別中精選的 681 種已公開揭露報告模式，並附企業身分與基礎設施攻擊矩陣。"
+  },
+  "elripalda/RecompLauncher": {
+    "source": "PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.",
+    "zh": "PC recomps 一站式整合。從單一啟動器尋找、安裝、更新並遊玩 PC recomps。"
+  },
+  "elvarofficial/teardown": {
+    "source": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+    "zh": "一款 Claude Code 技能，可將任何機器變成可拆解的 3D 模擬器。"
+  },
+  "enesozturk/dimensional-drawing": {
+    "source": "Create Apple style dimensional drawings of UI components.",
+    "zh": "建立 Apple 風格的 UI 元件尺寸標註圖。"
+  },
+  "erkamyaman/rust-anything": {
+    "source": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+    "zh": "將整個應用程式以 Rust 重寫，一次一個部分，並在每個步驟對照原始程式所記錄的行為進行驗證。支援以 TypeScript、Python、C、Go、Ruby 與 Java 撰寫的 CLI、HTTP 伺服器與函式庫。"
+  },
+  "ersinkoc/phonebox": {
+    "source": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+    "zh": "將舊的 Android 手機變成可自訂的桌面面板與觸控控制台，支援 Windows、Linux 與 macOS。提供 124 個小工具與 30 個範本，涵蓋系統狀態、AI 程式設計、媒體與自動化，支援 13 種語言。可透過 USB 或已配對的 Wi-Fi 連線，無需雲端。"
+  },
+  "expo/exact": {
+    "source": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
+    "zh": "一次撰寫應用程式，即可原生執行於網頁、macOS、iOS 與 Linux，AI Agent 還能在各平台上建置、執行、觀看並測試。"
+  },
+  "firecrawl/firecrawl": {
+    "source": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+    "zh": "為你的 Agent 打造更聰明的知識基礎設施。透過單一 API 進行搜尋、爬取，並存取 550 多個資料提供者。"
+  },
+  "google-labs-code/stitch-skills": {
+    "source": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "zh": "一套設計用於搭配 Stitch MCP 伺服器的 Agent 技能函式庫。每項技能皆遵循 Agent Skills 開放標準，可相容於 Antigravity、Gemini CLI、Claude Code、Cursor 等程式設計代理。"
+  },
+  "govijr/terminal-mac": {
+    "source": "Entire MacOS running in your terminal.",
+    "zh": "在你的終端機中執行完整的 macOS。"
+  },
+  "haydenschmitty/floorplan": {
+    "source": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+    "zh": "看清你的應用程式實際如何組合在一起。這是由 Claude 或 Codex 繪製、以白話文呈現的互動式程式碼庫地圖。"
+  },
+  "heydamir/unslop": {
+    "source": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+    "zh": "一個 Claude 技能，可將看起來像 AI 生成的 vibe coding 介面，轉換為經過設計的介面。"
+  },
+  "heygen-com/hyperframes": {
+    "source": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+    "zh": "真正可編輯的 AI 影片。HyperFrames 是一款免費開源的 AI 影片編輯器。描述任何影片，即可取得可逐影格修改的真實專案。"
+  },
+  "huami1314/GestaltX": {
+    "source": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+    "zh": "適用於 iOS 27.x 的 MobileGestalt 編輯器，具備區域代碼調整、裝置預設集與備份功能。"
+  },
+  "interplains/Zero-Breach-Toolkit": {
+    "source": "Free, offline checks for known mercenary spyware on Windows, Mac, Linux, iPhone and Android - plus the doors left open, suspicious links, emails, files and QR codes, your accounts, home network and nearby trackers. Apps with a window, 27 languages. Nothing leaves your computer.",
+    "zh": "免費、離線檢查 Windows、Mac、Linux、iPhone 與 Android 上已知的傭兵級間諜軟體，另外檢查遺留的開放門戶、可疑連結、電子郵件、檔案與 QR Code、你的帳號、家用網路及附近的追蹤器。附視窗應用程式，支援 27 種語言。資料不會離開你的電腦。"
+  },
+  "jacke-pp/open-yoki": {
+    "source": "An AI live-stream host that runs on one server: voice, face, chat, memory, posts. The base yoki runs on. By Jacke_pp · contact: DM @Jacke_pp on X",
+    "zh": "AI 直播主持人，執行於單一伺服器上：語音、臉部、聊天、記憶、貼文。是 yoki 所依賴的基礎。由 Jacke_pp 製作 · 聯絡方式：在 X 上私訊 @Jacke_pp"
+  },
+  "jamesondh/chimera-vocal-synth": {
+    "source": "the ultimate vocal synthesizer - sing, speak, beatbox, and more",
+    "zh": "終極人聲合成器，能唱歌、說話、打節奏等等"
+  },
+  "janestreet/agent_skills": {
+    "source": "Agent skills",
+    "zh": "代理技能"
+  },
+  "jhaizhou-ops/S2Arm": {
+    "source": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole library. Bring your own games and keys. 把你自己的 Switch 游戏原生带到 iPhone / iPad / Mac。",
+    "zh": "在 iPhone、iPad 與 Mac 上原生執行你自己的 Switch 遊戲：遊戲程式碼重寫為 ARM64、圖形直接輸出至 Metal，一個應用程式涵蓋整個遊戲庫。自備遊戲與金鑰。"
+  },
+  "jingyaogong/minimind": {
+    "source": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+    "zh": "🧠 兩小時從零訓練出你自己的 64M LLM。"
+  },
+  "kajisho5/ffmpeg-skill": {
+    "source": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "zh": "供程式碼代理使用的本地影片編輯器：42 個 FFmpeg 工具，具備機器可讀的契約與 MCP 伺服器，適用於 Claude Code、Cursor 與 Codex。支援剪輯、字幕、重新構圖、響度、各平台匯出。無需雲端，也無需 API 金鑰。"
+  },
+  "kevinraymond/florilegium": {
+    "source": "Procedurally generated Delft-blue page margins for LuaLaTeX, with plants, visitors, shells and Gothic tracery sampled from genomes, and a TikZ library that draws them in pure TikZ under pdfLaTeX.",
+    "zh": "為 LuaLaTeX 程序化生成的代爾夫特藍頁邊框，包含植物、訪客、貝殼及哥德式花飾，其花紋由基因組取樣而來；另附 TikZ 函式庫，可在 pdfLaTeX 下以純 TikZ 繪製。"
+  },
+  "krisgfx9/Wireless-Device-Battery-Monitor": {
+    "source": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+    "zh": "在 Windows 10/11 工作列上顯示無線滑鼠、耳機、鍵盤與控制器的電量。輕量級系統匣應用程式，無需廠商軟體。支援 Logitech、Razer、SteelSeries、Corsair、HyperX、Glorious、PS4/PS5 DualSense、Xbox 及藍牙裝置。"
+  },
+  "lexifina/global-law": {
+    "source": "The world's law in git: any provision, any country, any date, and the law that wrote each word.",
+    "zh": "git 中的世界法律：任何條文、任何國家、任何日期，以及寫下每個字的法律。"
+  },
+  "libracoder/kiri": {
+    "source": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+    "zh": "適用於 macOS、Windows 與 Linux 的小型快速容器執行環境，是免費的 Ngrok 替代方案。"
+  },
+  "man15h/tellyscope": {
+    "source": "Debloat your Android TV, install apps, browse and transfer files on it, all from your phone. no root, no PC.",
+    "zh": "精簡你的 Android TV、安裝應用程式、瀏覽與傳輸其中的檔案，全部可從手機操作。無需 root，也不需電腦。"
+  },
+  "mdiri-ai/SoduWork": {
+    "source": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+    "zh": "為團隊與其代理打造的 AI 原生引擎。支援多 harness、多代理，可自行架設。"
+  },
+  "meta/astryx": {
+    "source": "An open source design system that's fully customizable and agent ready",
+    "zh": "一套完全可客製化且適合代理使用的開源設計系統。"
+  },
+  "milind-soni/OpenMausBot": {
+    "source": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "zh": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。"
+  },
+  "mjmirza/app-store-compliance": {
+    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "zh": "避免常見的 App Store 與 Google Play 上架遭拒。提供開放的實戰手冊與送審前檢查工具，涵蓋 117 種已記錄的遭拒模式及修正方式、隱私清單與 Data safety 檢查、95 個追蹤中的期限（EU AI Act、DSA、COPPA、年齡相關法規），以及供 AI 程式碼代理使用的技能。"
+  },
+  "modelflare-ai/AnyModelBot": {
+    "source": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
+    "zh": "🤖 開源、本地優先的 Grok Bot、OpenAI dots 與 Claude Duet 替代方案。可在任何模型上打造你自己的 AI 機器人：透過單一 Modelflare 金鑰使用 GPT、Claude、Gemini、Grok、DeepSeek、Kimi、GLM 等 70 多種模型。可在應用程式、微信或飛書中與其互動；它們會記住你、在背景工作、執行指令並使用你的電腦。按用量付費。"
+  },
+  "morganlinton/BeautifulRust": {
+    "source": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
+    "zh": "教導程式碼代理撰寫、審查並移植慣用 Rust 程式的代理技能，附帶經過測試的 clippy 設定。支援 Claude Code、Codex、Copilot、Cursor 與 Gemini CLI。"
+  },
+  "mromidev/claude-animated-shorts": {
+    "source": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+    "zh": "免費的 Claude 技能：以 three.js + Remotion 製作爆紅的動畫故事短片（3D 世界中的 2D 角色）。"
+  },
+  "mvanhorn/last30days-skill": {
+    "source": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "zh": "AI 代理技能，可跨 Reddit、X、YouTube、HN、Polymarket 與網路研究任何主題，然後綜合成有依據的摘要。"
+  },
+  "nginx/nginx": {
+    "source": "The official NGINX Open Source repository.",
+    "zh": "NGINX 開源版的官方儲存庫。"
+  },
+  "obra/superpowers": {
+    "source": "An agentic skills framework & software development methodology that works.",
+    "zh": "一套真正有效的代理技能框架與軟體開發方法論。"
+  },
+  "oosexgang/hakios-xnu-kernel": {
+    "source": "Apple's open-source XNU kernel on Android phones: its own loader and drivers, Metal on the Adreno. Runs from RAM; a reboot gives the phone back to Android.",
+    "zh": "在 Android 手機上運行蘋果開源的 XNU 核心：自有載入器與驅動程式，Adreno 上的 Metal。從 RAM 執行；重新開機後手機即交還給 Android。"
+  },
+  "openvinotoolkit/openvino": {
+    "source": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+    "zh": "OpenVINO™ 是一套開源工具包，用於最佳化與部署 AI 推論。"
+  },
+  "paipiange/nvzhuang": {
+    "source": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+    "zh": "1407 張 AI 女裝參考圖集與虛擬試穿網站，支援中英檢索、OpenAI Images / Gemini / 豆包及自訂 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang"
+  },
+  "patch-gg/pixelfx": {
+    "source": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+    "zh": "244 種像素藝術特效，每一種都是一小段程式碼。另附可用來製作自己特效的 Claude Code 技能。"
+  },
+  "pbakaus/impeccable": {
+    "source": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+    "zh": "程式碼代理的設計詞彙。以 polish 與 bolder 引導，以 critique 與 audit 審查，在 AI 粗製濫造的內容出貨前將其攔下。"
+  },
+  "physicsdolphin/nv-uefi-unlocker": {
+    "source": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed Booter -> V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.",
+    "zh": "UEFI 前置驅動程式 NVIDIA GPU 解鎖工具，適用於 Windows、Linux、Hackintosh 及所有可 EFI 開機的系統（Rust）：SEC2 清理 -> FWSEC/WPR2 -> 已簽章 Booter -> V67 四次寫入 payload，寫回後讀回驗證。已在多數 RTX 20、30、40 系列上驗證。"
+  },
+  "pingdotgg/t3code": {
+    "source": "The best way to control Claude Code, Codex and more from any computer or phone",
+    "zh": "從任何電腦或手機控制 Claude Code、Codex 等工具的最佳方式。"
+  },
+  "pookjw/HermesEnabler": {
+    "source": "Enable Hermès Watch Faces on any Apple Watch devices",
+    "zh": "在任何 Apple Watch 裝置上啟用 Hermès 錶面。"
+  },
+  "qybaihe/bla": {
+    "source": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
+    "zh": "🛡️ BLA（bla-agents / Blind LLM Agents）— 開源藍色防禦 MCP 伺服器與 CLI，保護 JS/TS、Electron ASAR、WASM、Python、原生二進位檔、SQLite、GGUF/Safetensors 與 Android DEX，抵禦 AI 逆向工程代理（REA）。"
+  },
+  "rddmwmddr/android-ad-cleaner": {
+    "source": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+    "zh": "關掉國產安卓手機系統裡的廣告、熱搜、資訊推薦和行銷推播。不 root、可還原，支援 AI 智慧代理一鍵執行。"
+  },
+  "s1dashu/quiet-md": {
+    "source": "Blazing-fast native notes app and rich-text editor for macOS, Windows, and Linux. Built with Rust + GPUI. Local-first and beautifully designed.",
+    "zh": "為 macOS、Windows 與 Linux 打造的極速原生筆記應用程式與富文本編輯器。以 Rust + GPUI 建構。本地優先，設計精美。"
+  },
+  "sarpstar/cinecode": {
+    "source": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+    "zh": "以程式碼製作的影片。短片、長篇 YouTube 影片、廣告、解說與音樂錄影帶：AI 程式碼代理撰寫腳本、以程式碼建構每一幀、設計音效，最後交付 MP4。"
+  },
+  "shanselman/gputaskman": {
+    "source": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights for NVIDIA, AMD, and Intel GPUs (plus Huawei Ascend on Linux).",
+    "zh": "適用於 Windows、Linux 與 WSL 的 GPU 工作管理員：逐程序 VRAM、GPU 活動，以及 NVIDIA、AMD、Intel GPU 的 LLM 模型與 KV 快取洞察（Linux 上另支援華為昇騰）。"
+  },
+  "sherlock-project/sherlock": {
+    "source": "Hunt down social media accounts by username across social networks",
+    "zh": "依使用者名稱在各社群網路中搜尋社群媒體帳號。"
+  },
+  "shirai91/nx2android": {
+    "source": "A compatibility layer for porting Switch games to Android, one game at a time",
+    "zh": "一套相容層，逐一將 Switch 遊戲移植到 Android。"
+  },
+  "simplexai-labs/linger": {
+    "source": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+    "zh": "Linger 是一款開源個人代理，完全在你的電腦上執行。我們希望透過高效的模型與 harness 協同設計，把強大的本地 AI 帶到日常電腦上，打破大型科技公司對 AI 的掌控，讓每個人都能執行屬於自己的 AI。"
+  },
+  "sqlpxc/airhand": {
+    "source": "High-performance, low-latency remote desktop QUIC transport · hardware encoding and decoding · up to 120 fps Windows · macOS · Linux · Android · browser",
+    "zh": "高效能、低延遲的遠端桌面 QUIC 傳輸協定 · 硬體編解碼 · 最高 120 fps · Windows · macOS · Linux · Android · 瀏覽器"
+  },
+  "storytold/craft-anything": {
+    "source": "Craft Anything: understand how any software works, and craft your own.",
+    "zh": "Craft Anything：理解任何軟體的運作方式，並打造屬於你自己的作品。"
+  },
+  "t3dotgg/tstack": {
+    "source": "The agent skills I use every day. Works with Claude Code and Codex.",
+    "zh": "我每天都在用的 Agent Skills。支援 Claude Code 與 Codex。"
+  },
+  "thedotmack/claude-mem": {
+    "source": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "zh": "為每個 Agent 提供跨工作階段的持久上下文。擷取 Agent 在工作階段中的所有操作，以 AI 壓縮後，將相關上下文注入後續工作階段。支援 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等更多工具。"
+  },
+  "toeverything/AFFiNE": {
+    "source": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+    "zh": "Notion 和 Miro 之外，還有更多選擇。AFFiNE（發音 [ə‘fain]）是新一代知識庫，將規劃、整理與創作整合在一起。以隱私為優先、開源、可自訂，開箱即用。"
+  },
+  "toyxyz/toyxyz_RGBMocap": {
+    "source": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+    "zh": "原生 Windows 影片動作擷取，支援 ExMR、FlowHMR 與 GVHMR，包含接觸修正、人形骨架重新定向，以及 FBX/VMD 匯出。"
+  },
+  "tradermonty/claude-trading-skills": {
+    "source": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+    "zh": "供股票投資人與交易者使用的 Claude Code 技能：市場分析、技術圖表、經濟日曆、選股篩選器，以及交易策略開發。"
+  },
+  "valentderah/totk-pc-recomp": {
+    "source": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+    "zh": "將《薩爾達傳說：王國之淚》靜態重新編譯為原生 Windows 與 Linux x86-64 版本，搭配 Vulkan 渲染器。不含遊戲檔案。"
+  },
+  "vercel-labs/agent-browser": {
+    "source": "Browser automation CLI for AI agents",
+    "zh": "供 AI Agent 使用的瀏覽器自動化命令列工具"
+  },
+  "vercel-labs/ui": {
+    "source": "A library of behaviors for agents to build the next generation of user interfaces.",
+    "zh": "一套供 Agent 使用的行為函式庫，用於打造下一代使用者介面。"
+  },
+  "wangzan101/Mika": {
+    "source": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+    "zh": "適用於 Android 的裝置端 AI Agent，可代為操作應用程式與網頁來完成任務。"
+  },
+  "we-promise/sure": {
+    "source": "The personal finance app for everyone (by everyone)",
+    "zh": "人人都能用的個人財務應用程式（由大家共同打造）"
+  },
+  "wquguru/cicada": {
+    "source": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
+    "zh": "知了 Cicada · 任何會議和直播的即時字幕、同步口譯、AI 會議紀要，Mac、Windows、Linux、Android 免費開源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android."
+  },
+  "yjid/kensaku": {
+    "source": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+    "zh": "即時且在本機搜尋文件、程式碼，甚至截圖內容。免費開源的檔案啟動器，支援 OCR、語意搜尋，以及 MCP Agent 存取。"
+  },
+  "zhouxiaoka/autoclip": {
+    "source": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+    "zh": "AutoClip｜一個連結，一鍵出片。開源 AI 影片剪輯桌面工具，可將播客、訪談、課程等長影片自動剪成短影片，產生字幕、封面與發布文案，適用於抖音、小紅書、TikTok、Reels 與 YouTube Shorts。Open-source AI video clipping & content repurposing."
+  },
+  "zortos293/Lichii": {
+    "source": "VERY experimental Nintendo Switch 2 emulator",
+    "zh": "非常實驗性的 Nintendo Switch 2 模擬器"
+  }
+}

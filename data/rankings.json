@@ -39,10 +39,10 @@
       {
         "fullName": "cloudflare/security-audit-skill",
         "url": "https://github.com/cloudflare/security-audit-skill",
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "description": "適用於程式碼代理的技能，用於多階段安全稽核，產出經獨立驗證、機器可讀的發現結果。",
         "language": "JavaScript",
-        "stars": 75882,
-        "gain": 41447,
+        "stars": 75896,
+        "gain": 41461,
         "days": 30,
         "series": [
           0,
@@ -75,16 +75,16 @@
           39688,
           40535,
           41056,
-          41447
+          41461
         ]
       },
       {
         "fullName": "storytold/craft-anything",
         "url": "https://github.com/storytold/craft-anything",
-        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "description": "Craft Anything：理解任何軟體的運作方式，並打造屬於你自己的作品。",
         "language": "Rust",
-        "stars": 38621,
-        "gain": 38621,
+        "stars": 38657,
+        "gain": 38657,
         "days": 30,
         "series": [
           0,
@@ -117,16 +117,16 @@
           35074,
           36126,
           37542,
-          38621
+          38657
         ]
       },
       {
         "fullName": "pingdotgg/t3code",
         "url": "https://github.com/pingdotgg/t3code",
-        "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+        "description": "從任何電腦或手機控制 Claude Code、Codex 等工具的最佳方式。",
         "language": "TypeScript",
-        "stars": 66553,
-        "gain": 37871,
+        "stars": 66587,
+        "gain": 37905,
         "days": 30,
         "series": [
           0,
@@ -159,16 +159,16 @@
           34485,
           35802,
           36913,
-          37871
+          37905
         ]
       },
       {
         "fullName": "pbakaus/impeccable",
         "url": "https://github.com/pbakaus/impeccable",
-        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "description": "程式碼代理的設計詞彙。以 polish 與 bolder 引導，以 critique 與 audit 審查，在 AI 粗製濫造的內容出貨前將其攔下。",
         "language": "Rust",
-        "stars": 113537,
-        "gain": 29992,
+        "stars": 113548,
+        "gain": 30003,
         "days": 30,
         "series": [
           0,
@@ -201,16 +201,16 @@
           28012,
           28877,
           29516,
-          29992
+          30003
         ]
       },
       {
         "fullName": "ccch1mneyyy/dsh-Go",
         "url": "https://github.com/ccch1mneyyy/dsh-Go",
-        "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+        "description": "dsh-go — 把 DeepSeek Harness 裝進口袋：在手機本機執行，也能遙控你的電腦。",
         "language": "Dart",
-        "stars": 28298,
-        "gain": 28298,
+        "stars": 28339,
+        "gain": 28339,
         "days": 30,
         "series": [
           0,
@@ -243,16 +243,16 @@
           25210,
           26451,
           27563,
-          28298
+          28339
         ]
       },
       {
         "fullName": "Nutlope/hallmark",
         "url": "https://github.com/Nutlope/hallmark",
-        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "description": "適用於 Claude Code、Cursor 與 Codex 的反 AI 粗製濫造設計技能。",
         "language": "CSS",
-        "stars": 58110,
-        "gain": 27852,
+        "stars": 58121,
+        "gain": 27863,
         "days": 30,
         "series": [
           0,
@@ -285,16 +285,16 @@
           26059,
           26853,
           27440,
-          27852
+          27863
         ]
       },
       {
         "fullName": "deepseek-ai/dsh-superagent-prototype",
         "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-        "description": "Towards a More Autonomous Agent System",
+        "description": "邁向更自主的 Agent 系統",
         "language": "TypeScript",
-        "stars": 23966,
-        "gain": 23965,
+        "stars": 23972,
+        "gain": 23971,
         "days": 30,
         "series": [
           0,
@@ -327,16 +327,16 @@
           23552,
           23728,
           23879,
-          23965
+          23971
         ]
       },
       {
         "fullName": "obra/superpowers",
         "url": "https://github.com/obra/superpowers",
-        "description": "An agentic skills framework & software development methodology that works.",
+        "description": "一套真正有效的代理技能框架與軟體開發方法論。",
         "language": "Shell",
-        "stars": 322171,
-        "gain": 20692,
+        "stars": 322188,
+        "gain": 20709,
         "days": 30,
         "series": [
           0,
@@ -369,16 +369,16 @@
           17216,
           18002,
           19999,
-          20692
+          20709
         ]
       },
       {
         "fullName": "milind-soni/OpenMausBot",
         "url": "https://github.com/milind-soni/OpenMausBot",
-        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "description": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。",
         "language": "TypeScript",
-        "stars": 25867,
-        "gain": 20623,
+        "stars": 25873,
+        "gain": 20629,
         "days": 30,
         "series": [
           0,
@@ -411,16 +411,16 @@
           19093,
           19743,
           20279,
-          20623
+          20629
         ]
       },
       {
         "fullName": "sherlock-project/sherlock",
         "url": "https://github.com/sherlock-project/sherlock",
-        "description": "Hunt down social media accounts by username across social networks",
+        "description": "依使用者名稱在各社群網路中搜尋社群媒體帳號。",
         "language": "Python",
-        "stars": 114656,
-        "gain": 20292,
+        "stars": 114665,
+        "gain": 20301,
         "days": 30,
         "series": [
           0,
@@ -453,16 +453,16 @@
           18968,
           19530,
           19937,
-          20292
+          20301
         ]
       },
       {
         "fullName": "HKUDS/DeepTutor",
         "url": "https://github.com/HKUDS/DeepTutor",
-        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "description": "DeepTutor：終身個人化家教。https://deeptutor.info/.",
         "language": "Python",
-        "stars": 60847,
-        "gain": 19118,
+        "stars": 60859,
+        "gain": 19130,
         "days": 30,
         "series": [
           0,
@@ -495,16 +495,16 @@
           18135,
           18472,
           18897,
-          19118
+          19130
         ]
       },
       {
         "fullName": "heygen-com/hyperframes",
         "url": "https://github.com/heygen-com/hyperframes",
-        "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+        "description": "真正可編輯的 AI 影片。HyperFrames 是一款免費開源的 AI 影片編輯器。描述任何影片，即可取得可逐影格修改的真實專案。",
         "language": "TypeScript",
-        "stars": 87079,
-        "gain": 18749,
+        "stars": 87085,
+        "gain": 18755,
         "days": 30,
         "series": [
           0,
@@ -537,16 +537,16 @@
           17070,
           17820,
           18355,
-          18749
+          18755
         ]
       },
       {
         "fullName": "heydamir/unslop",
         "url": "https://github.com/heydamir/unslop",
-        "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+        "description": "一個 Claude 技能，可將看起來像 AI 生成的 vibe coding 介面，轉換為經過設計的介面。",
         "language": "JavaScript",
-        "stars": 18715,
-        "gain": 18715,
+        "stars": 18729,
+        "gain": 18729,
         "days": 30,
         "series": [
           0,
@@ -579,16 +579,16 @@
           17384,
           17944,
           18406,
-          18715
+          18729
         ]
       },
       {
         "fullName": "meta/astryx",
         "url": "https://github.com/meta/astryx",
-        "description": "An open source design system that's fully customizable and agent ready",
+        "description": "一套完全可客製化且適合代理使用的開源設計系統。",
         "language": "TypeScript",
-        "stars": 31019,
-        "gain": 17415,
+        "stars": 31035,
+        "gain": 17431,
         "days": 30,
         "series": [
           0,
@@ -621,16 +621,16 @@
           16186,
           16692,
           17093,
-          17415
+          17431
         ]
       },
       {
         "fullName": "thedotmack/claude-mem",
         "url": "https://github.com/thedotmack/claude-mem",
-        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "description": "為每個 Agent 提供跨工作階段的持久上下文。擷取 Agent 在工作階段中的所有操作，以 AI 壓縮後，將相關上下文注入後續工作階段。支援 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等更多工具。",
         "language": "TypeScript",
-        "stars": 118472,
-        "gain": 16992,
+        "stars": 118477,
+        "gain": 16997,
         "days": 30,
         "series": [
           0,
@@ -663,16 +663,16 @@
           16244,
           16550,
           16800,
-          16992
+          16997
         ]
       },
       {
         "fullName": "anthropics/skills",
         "url": "https://github.com/anthropics/skills",
-        "description": "Public repository for Agent Skills",
+        "description": "Agent Skills 公開儲存庫",
         "language": "Python",
-        "stars": 197743,
-        "gain": 15701,
+        "stars": 197749,
+        "gain": 15707,
         "days": 30,
         "series": [
           0,
@@ -705,16 +705,16 @@
           14168,
           14830,
           15321,
-          15701
+          15707
         ]
       },
       {
         "fullName": "anefzaoui/misterdownloadmanager",
         "url": "https://github.com/anefzaoui/misterdownloadmanager",
-        "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+        "description": "misterdownloadmanager：終極開源、從零以純 Rust 撰寫的乾淨室（clean-room）下載管理器，支援 Windows、Mac 與 Linux。",
         "language": "Rust",
-        "stars": 13821,
-        "gain": 13820,
+        "stars": 13845,
+        "gain": 13844,
         "days": 30,
         "series": [
           0,
@@ -747,16 +747,16 @@
           11330,
           12418,
           13317,
-          13820
+          13844
         ]
       },
       {
         "fullName": "AgriciDaniel/claude-seo",
         "url": "https://github.com/AgriciDaniel/claude-seo",
-        "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+        "description": "適用於 Claude Code 的通用 SEO 技能。包含 26 個子技能與 19 個子代理，涵蓋技術 SEO、E-E-A-T、結構化資料（schema）、GEO/AEO、代理就緒度（Lighthouse Agentic Browsing、WebMCP、llms.txt）、反向連結、在地 SEO、電子商務、國際 SEO、Google API，以及 PDF/Excel 報表。另有 9 個選用擴充功能，可取得即時 SEO 數據。",
         "language": "Python",
-        "stars": 30964,
-        "gain": 11560,
+        "stars": 30972,
+        "gain": 11568,
         "days": 30,
         "series": [
           0,
@@ -789,16 +789,16 @@
           10737,
           11071,
           11346,
-          11560
+          11568
         ]
       },
       {
         "fullName": "firecrawl/firecrawl",
         "url": "https://github.com/firecrawl/firecrawl",
-        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+        "description": "為你的 Agent 打造更聰明的知識基礎設施。透過單一 API 進行搜尋、爬取，並存取 550 多個資料提供者。",
         "language": "TypeScript",
-        "stars": 204350,
-        "gain": 11498,
+        "stars": 204374,
+        "gain": 11522,
         "days": 30,
         "series": [
           0,
@@ -831,16 +831,16 @@
           9515,
           9826,
           10538,
-          11498
+          11522
         ]
       },
       {
         "fullName": "libracoder/kiri",
         "url": "https://github.com/libracoder/kiri",
-        "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+        "description": "適用於 macOS、Windows 與 Linux 的小型快速容器執行環境，是免費的 Ngrok 替代方案。",
         "language": "Rust",
-        "stars": 11314,
-        "gain": 11314,
+        "stars": 11325,
+        "gain": 11325,
         "days": 30,
         "series": [
           0,
@@ -873,7 +873,7 @@
           9355,
           10348,
           10935,
-          11314
+          11325
         ]
       }
     ],
@@ -881,10 +881,10 @@
       {
         "fullName": "obra/superpowers",
         "url": "https://github.com/obra/superpowers",
-        "description": "An agentic skills framework & software development methodology that works.",
+        "description": "一套真正有效的代理技能框架與軟體開發方法論。",
         "language": "Shell",
-        "stars": 322171,
-        "gain": 20692,
+        "stars": 322188,
+        "gain": 20709,
         "days": 30,
         "series": [
           0,
@@ -917,16 +917,16 @@
           17216,
           18002,
           19999,
-          20692
+          20709
         ]
       },
       {
         "fullName": "firecrawl/firecrawl",
         "url": "https://github.com/firecrawl/firecrawl",
-        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+        "description": "為你的 Agent 打造更聰明的知識基礎設施。透過單一 API 進行搜尋、爬取，並存取 550 多個資料提供者。",
         "language": "TypeScript",
-        "stars": 204350,
-        "gain": 11498,
+        "stars": 204374,
+        "gain": 11522,
         "days": 30,
         "series": [
           0,
@@ -959,16 +959,16 @@
           9515,
           9826,
           10538,
-          11498
+          11522
         ]
       },
       {
         "fullName": "anthropics/skills",
         "url": "https://github.com/anthropics/skills",
-        "description": "Public repository for Agent Skills",
+        "description": "Agent Skills 公開儲存庫",
         "language": "Python",
-        "stars": 197743,
-        "gain": 15701,
+        "stars": 197749,
+        "gain": 15707,
         "days": 30,
         "series": [
           0,
@@ -1001,16 +1001,16 @@
           14168,
           14830,
           15321,
-          15701
+          15707
         ]
       },
       {
         "fullName": "thedotmack/claude-mem",
         "url": "https://github.com/thedotmack/claude-mem",
-        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "description": "為每個 Agent 提供跨工作階段的持久上下文。擷取 Agent 在工作階段中的所有操作，以 AI 壓縮後，將相關上下文注入後續工作階段。支援 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等更多工具。",
         "language": "TypeScript",
-        "stars": 118472,
-        "gain": 16992,
+        "stars": 118477,
+        "gain": 16997,
         "days": 30,
         "series": [
           0,
@@ -1043,16 +1043,16 @@
           16244,
           16550,
           16800,
-          16992
+          16997
         ]
       },
       {
         "fullName": "sherlock-project/sherlock",
         "url": "https://github.com/sherlock-project/sherlock",
-        "description": "Hunt down social media accounts by username across social networks",
+        "description": "依使用者名稱在各社群網路中搜尋社群媒體帳號。",
         "language": "Python",
-        "stars": 114656,
-        "gain": 20292,
+        "stars": 114665,
+        "gain": 20301,
         "days": 30,
         "series": [
           0,
@@ -1085,16 +1085,16 @@
           18968,
           19530,
           19937,
-          20292
+          20301
         ]
       },
       {
         "fullName": "pbakaus/impeccable",
         "url": "https://github.com/pbakaus/impeccable",
-        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "description": "程式碼代理的設計詞彙。以 polish 與 bolder 引導，以 critique 與 audit 審查，在 AI 粗製濫造的內容出貨前將其攔下。",
         "language": "Rust",
-        "stars": 113537,
-        "gain": 29992,
+        "stars": 113548,
+        "gain": 30003,
         "days": 30,
         "series": [
           0,
@@ -1127,16 +1127,16 @@
           28012,
           28877,
           29516,
-          29992
+          30003
         ]
       },
       {
         "fullName": "heygen-com/hyperframes",
         "url": "https://github.com/heygen-com/hyperframes",
-        "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+        "description": "真正可編輯的 AI 影片。HyperFrames 是一款免費開源的 AI 影片編輯器。描述任何影片，即可取得可逐影格修改的真實專案。",
         "language": "TypeScript",
-        "stars": 87079,
-        "gain": 18749,
+        "stars": 87085,
+        "gain": 18755,
         "days": 30,
         "series": [
           0,
@@ -1169,16 +1169,16 @@
           17070,
           17820,
           18355,
-          18749
+          18755
         ]
       },
       {
         "fullName": "cloudflare/security-audit-skill",
         "url": "https://github.com/cloudflare/security-audit-skill",
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "description": "適用於程式碼代理的技能，用於多階段安全稽核，產出經獨立驗證、機器可讀的發現結果。",
         "language": "JavaScript",
-        "stars": 75882,
-        "gain": 41447,
+        "stars": 75896,
+        "gain": 41461,
         "days": 30,
         "series": [
           0,
@@ -1211,16 +1211,16 @@
           39688,
           40535,
           41056,
-          41447
+          41461
         ]
       },
       {
         "fullName": "toeverything/AFFiNE",
         "url": "https://github.com/toeverything/AFFiNE",
-        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "description": "Notion 和 Miro 之外，還有更多選擇。AFFiNE（發音 [ə‘fain]）是新一代知識庫，將規劃、整理與創作整合在一起。以隱私為優先、開源、可自訂，開箱即用。",
         "language": "TypeScript",
-        "stars": 75236,
-        "gain": 1722,
+        "stars": 75249,
+        "gain": 1735,
         "days": 30,
         "series": [
           0,
@@ -1253,16 +1253,16 @@
           1052,
           1089,
           1248,
-          1722
+          1735
         ]
       },
       {
         "fullName": "mvanhorn/last30days-skill",
         "url": "https://github.com/mvanhorn/last30days-skill",
-        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "description": "AI 代理技能，可跨 Reddit、X、YouTube、HN、Polymarket 與網路研究任何主題，然後綜合成有依據的摘要。",
         "language": "Python",
-        "stars": 70875,
-        "gain": 6177,
+        "stars": 70892,
+        "gain": 6194,
         "days": 30,
         "series": [
           0,
@@ -1295,16 +1295,16 @@
           3651,
           4682,
           5613,
-          6177
+          6194
         ]
       },
       {
         "fullName": "cathrynlavery/diagram-design",
         "url": "https://github.com/cathrynlavery/diagram-design",
-        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "description": "適用於 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 與 Pi 的編輯式圖表設計。45 種圖表類型。獨立 HTML + SVG。無陰影。拒絕 Mermaid 式粗製濫造。",
         "language": "HTML",
-        "stars": 68713,
-        "gain": 9791,
+        "stars": 68734,
+        "gain": 9812,
         "days": 30,
         "series": [
           0,
@@ -1337,16 +1337,16 @@
           8788,
           9094,
           9374,
-          9791
+          9812
         ]
       },
       {
         "fullName": "jingyaogong/minimind",
         "url": "https://github.com/jingyaogong/minimind",
-        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "description": "🧠 兩小時從零訓練出你自己的 64M LLM。",
         "language": "Python",
-        "stars": 66997,
-        "gain": 3101,
+        "stars": 67034,
+        "gain": 3138,
         "days": 30,
         "series": [
           0,
@@ -1379,16 +1379,16 @@
           1683,
           2374,
           2676,
-          3101
+          3138
         ]
       },
       {
         "fullName": "pingdotgg/t3code",
         "url": "https://github.com/pingdotgg/t3code",
-        "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+        "description": "從任何電腦或手機控制 Claude Code、Codex 等工具的最佳方式。",
         "language": "TypeScript",
-        "stars": 66553,
-        "gain": 37871,
+        "stars": 66587,
+        "gain": 37905,
         "days": 30,
         "series": [
           0,
@@ -1421,16 +1421,16 @@
           34485,
           35802,
           36913,
-          37871
+          37905
         ]
       },
       {
         "fullName": "HKUDS/DeepTutor",
         "url": "https://github.com/HKUDS/DeepTutor",
-        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "description": "DeepTutor：終身個人化家教。https://deeptutor.info/.",
         "language": "Python",
-        "stars": 60847,
-        "gain": 19118,
+        "stars": 60859,
+        "gain": 19130,
         "days": 30,
         "series": [
           0,
@@ -1463,16 +1463,16 @@
           18135,
           18472,
           18897,
-          19118
+          19130
         ]
       },
       {
         "fullName": "HKUDS/CLI-Anything",
         "url": "https://github.com/HKUDS/CLI-Anything",
-        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "description": "「CLI-Anything：讓所有軟體都原生支援代理」-- CLI-Hub: https://clianything.cc/",
         "language": "Python",
-        "stars": 60646,
-        "gain": 5101,
+        "stars": 60663,
+        "gain": 5118,
         "days": 30,
         "series": [
           0,
@@ -1505,16 +1505,16 @@
           3316,
           3695,
           4506,
-          5101
+          5118
         ]
       },
       {
         "fullName": "ChromeDevTools/chrome-devtools-mcp",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "description": "Chrome DevTools for coding agents",
+        "description": "供程式碼代理使用的 Chrome DevTools",
         "language": "TypeScript",
-        "stars": 58392,
-        "gain": 4650,
+        "stars": 58395,
+        "gain": 4653,
         "days": 30,
         "series": [
           0,
@@ -1547,16 +1547,16 @@
           4087,
           4360,
           4515,
-          4650
+          4653
         ]
       },
       {
         "fullName": "Nutlope/hallmark",
         "url": "https://github.com/Nutlope/hallmark",
-        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "description": "適用於 Claude Code、Cursor 與 Codex 的反 AI 粗製濫造設計技能。",
         "language": "CSS",
-        "stars": 58110,
-        "gain": 27852,
+        "stars": 58121,
+        "gain": 27863,
         "days": 30,
         "series": [
           0,
@@ -1589,16 +1589,16 @@
           26059,
           26853,
           27440,
-          27852
+          27863
         ]
       },
       {
         "fullName": "alibaba/open-code-review",
         "url": "https://github.com/alibaba/open-code-review",
-        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "description": "安全、快速、高效，經阿里巴巴規模實戰驗證。混合架構程式碼審查工具：確定性流程 + LLM Agent，精準行級註解，內建多語言規則集（NPE、執行緒安全、XSS、SQL 注入），相容 OpenAI 與 Anthropic。",
         "language": "Go",
-        "stars": 54416,
-        "gain": 6918,
+        "stars": 54427,
+        "gain": 6929,
         "days": 30,
         "series": [
           0,
@@ -1631,16 +1631,16 @@
           5676,
           6455,
           6735,
-          6918
+          6929
         ]
       },
       {
         "fullName": "vercel-labs/agent-browser",
         "url": "https://github.com/vercel-labs/agent-browser",
-        "description": "Browser automation CLI for AI agents",
+        "description": "供 AI Agent 使用的瀏覽器自動化命令列工具",
         "language": "Rust",
-        "stars": 52905,
-        "gain": 8693,
+        "stars": 52909,
+        "gain": 8697,
         "days": 30,
         "series": [
           0,
@@ -1673,16 +1673,16 @@
           7922,
           8237,
           8507,
-          8693
+          8697
         ]
       },
       {
         "fullName": "storytold/craft-anything",
         "url": "https://github.com/storytold/craft-anything",
-        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "description": "Craft Anything：理解任何軟體的運作方式，並打造屬於你自己的作品。",
         "language": "Rust",
-        "stars": 38621,
-        "gain": 38621,
+        "stars": 38657,
+        "gain": 38657,
         "days": 30,
         "series": [
           0,
@@ -1715,7 +1715,7 @@
           35074,
           36126,
           37542,
-          38621
+          38657
         ]
       }
     ]
@@ -1736,10 +1736,10 @@
       {
         "fullName": "libracoder/kiri",
         "url": "https://github.com/libracoder/kiri",
-        "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
+        "description": "適用於 macOS、Windows 與 Linux 的小型快速容器執行環境，是免費的 Ngrok 替代方案。",
         "language": "Rust",
-        "stars": 11314,
-        "gain": 9463,
+        "stars": 11325,
+        "gain": 9474,
         "days": 7,
         "series": [
           0,
@@ -1749,16 +1749,16 @@
           7504,
           8497,
           9084,
-          9463
+          9474
         ]
       },
       {
         "fullName": "RoutineMiku/apkstart",
         "url": "https://github.com/RoutineMiku/apkstart",
-        "description": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+        "description": "Windows 上的安卓應用程式執行器：雙擊 APK 即可安裝，應用程式以獨立視窗與桌面圖示執行，內建 QEMU 執行環境。",
         "language": "JavaScript",
-        "stars": 8363,
-        "gain": 8286,
+        "stars": 8378,
+        "gain": 8301,
         "days": 7,
         "series": [
           0,
@@ -1768,16 +1768,16 @@
           6776,
           7529,
           7951,
-          8286
+          8301
         ]
       },
       {
         "fullName": "storytold/craft-anything",
         "url": "https://github.com/storytold/craft-anything",
-        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "description": "Craft Anything：理解任何軟體的運作方式，並打造屬於你自己的作品。",
         "language": "Rust",
-        "stars": 38621,
-        "gain": 8173,
+        "stars": 38657,
+        "gain": 8209,
         "days": 7,
         "series": [
           0,
@@ -1787,16 +1787,16 @@
           4626,
           5678,
           7094,
-          8173
+          8209
         ]
       },
       {
         "fullName": "pingdotgg/t3code",
         "url": "https://github.com/pingdotgg/t3code",
-        "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+        "description": "從任何電腦或手機控制 Claude Code、Codex 等工具的最佳方式。",
         "language": "TypeScript",
-        "stars": 66553,
-        "gain": 7898,
+        "stars": 66587,
+        "gain": 7932,
         "days": 7,
         "series": [
           0,
@@ -1806,16 +1806,16 @@
           4512,
           5829,
           6940,
-          7898
+          7932
         ]
       },
       {
         "fullName": "ccch1mneyyy/dsh-Go",
         "url": "https://github.com/ccch1mneyyy/dsh-Go",
-        "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+        "description": "dsh-go — 把 DeepSeek Harness 裝進口袋：在手機本機執行，也能遙控你的電腦。",
         "language": "Dart",
-        "stars": 28298,
-        "gain": 7182,
+        "stars": 28339,
+        "gain": 7223,
         "days": 7,
         "series": [
           0,
@@ -1825,16 +1825,16 @@
           4094,
           5335,
           6447,
-          7182
+          7223
         ]
       },
       {
         "fullName": "elementalsouls/Claude-BugHunter",
         "url": "https://github.com/elementalsouls/Claude-BugHunter",
-        "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+        "description": "用於漏洞挖掘與外部紅隊作業的 Claude Code 技能套件：82 項技能、15 個斜線指令，收錄 24 種核心漏洞類別中精選的 681 種已公開揭露報告模式，並附企業身分與基礎設施攻擊矩陣。",
         "language": "Python",
-        "stars": 12679,
-        "gain": 7044,
+        "stars": 12714,
+        "gain": 7079,
         "days": 7,
         "series": [
           0,
@@ -1844,16 +1844,16 @@
           2149,
           4339,
           5956,
-          7044
+          7079
         ]
       },
       {
         "fullName": "dream-num/univer",
         "url": "https://github.com/dream-num/univer",
-        "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+        "description": "使用 Univer Office SDK 打造你自己的 AI 辦公室。將編輯、計算、協作與檔案處理整合進你的產品，供人員與 AI Agent 使用。基於可擴充的開源核心建構。",
         "language": "TypeScript",
-        "stars": 30448,
-        "gain": 6956,
+        "stars": 30341,
+        "gain": 6849,
         "days": 7,
         "series": [
           0,
@@ -1863,16 +1863,16 @@
           4912,
           5951,
           6537,
-          6956
+          6849
         ]
       },
       {
         "fullName": "anefzaoui/misterdownloadmanager",
         "url": "https://github.com/anefzaoui/misterdownloadmanager",
-        "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+        "description": "misterdownloadmanager：終極開源、從零以純 Rust 撰寫的乾淨室（clean-room）下載管理器，支援 Windows、Mac 與 Linux。",
         "language": "Rust",
-        "stars": 13821,
-        "gain": 5591,
+        "stars": 13845,
+        "gain": 5615,
         "days": 7,
         "series": [
           0,
@@ -1882,16 +1882,16 @@
           3101,
           4189,
           5088,
-          5591
+          5615
         ]
       },
       {
         "fullName": "obra/superpowers",
         "url": "https://github.com/obra/superpowers",
-        "description": "An agentic skills framework & software development methodology that works.",
+        "description": "一套真正有效的代理技能框架與軟體開發方法論。",
         "language": "Shell",
-        "stars": 322171,
-        "gain": 5521,
+        "stars": 322188,
+        "gain": 5538,
         "days": 7,
         "series": [
           0,
@@ -1901,16 +1901,16 @@
           2045,
           2831,
           4828,
-          5521
+          5538
         ]
       },
       {
         "fullName": "GoogleChrome/modern-web-guidance-src",
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-        "description": "Keep your coding agent up to date with the latest web best practices",
+        "description": "讓你的程式代理隨時掌握最新的網頁最佳實踐",
         "language": "TypeScript",
-        "stars": 9143,
-        "gain": 5439,
+        "stars": 9174,
+        "gain": 5470,
         "days": 7,
         "series": [
           0,
@@ -1920,16 +1920,16 @@
           4440,
           4862,
           5229,
-          5439
+          5470
         ]
       },
       {
         "fullName": "erkamyaman/rust-anything",
         "url": "https://github.com/erkamyaman/rust-anything",
-        "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+        "description": "將整個應用程式以 Rust 重寫，一次一個部分，並在每個步驟對照原始程式所記錄的行為進行驗證。支援以 TypeScript、Python、C、Go、Ruby 與 Java 撰寫的 CLI、HTTP 伺服器與函式庫。",
         "language": "Rust",
-        "stars": 5322,
-        "gain": 5322,
+        "stars": 5352,
+        "gain": 5352,
         "days": 7,
         "series": [
           0,
@@ -1939,16 +1939,16 @@
           1,
           1971,
           3881,
-          5322
+          5352
         ]
       },
       {
         "fullName": "deepseek-ai/chat-demo",
         "url": "https://github.com/deepseek-ai/chat-demo",
-        "description": "Chat Demo",
+        "description": "聊天示範",
         "language": "TypeScript",
-        "stars": 5038,
-        "gain": 5038,
+        "stars": 5044,
+        "gain": 5044,
         "days": 7,
         "series": [
           0,
@@ -1958,16 +1958,16 @@
           4283,
           4638,
           4922,
-          5038
+          5044
         ]
       },
       {
         "fullName": "krisgfx9/Wireless-Device-Battery-Monitor",
         "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
-        "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+        "description": "在 Windows 10/11 工作列上顯示無線滑鼠、耳機、鍵盤與控制器的電量。輕量級系統匣應用程式，無需廠商軟體。支援 Logitech、Razer、SteelSeries、Corsair、HyperX、Glorious、PS4/PS5 DualSense、Xbox 及藍牙裝置。",
         "language": "C++",
-        "stars": 4701,
-        "gain": 4701,
+        "stars": 4713,
+        "gain": 4713,
         "days": 7,
         "series": [
           0,
@@ -1977,16 +1977,16 @@
           552,
           3207,
           4186,
-          4701
+          4713
         ]
       },
       {
         "fullName": "cloudflare/security-audit-skill",
         "url": "https://github.com/cloudflare/security-audit-skill",
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "description": "適用於程式碼代理的技能，用於多階段安全稽核，產出經獨立驗證、機器可讀的發現結果。",
         "language": "JavaScript",
-        "stars": 75882,
-        "gain": 4575,
+        "stars": 75896,
+        "gain": 4589,
         "days": 7,
         "series": [
           0,
@@ -1996,16 +1996,16 @@
           2816,
           3663,
           4184,
-          4575
+          4589
         ]
       },
       {
         "fullName": "pbakaus/impeccable",
         "url": "https://github.com/pbakaus/impeccable",
-        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "description": "程式碼代理的設計詞彙。以 polish 與 bolder 引導，以 critique 與 audit 審查，在 AI 粗製濫造的內容出貨前將其攔下。",
         "language": "Rust",
-        "stars": 113537,
-        "gain": 4488,
+        "stars": 113548,
+        "gain": 4499,
         "days": 7,
         "series": [
           0,
@@ -2015,16 +2015,16 @@
           2508,
           3373,
           4012,
-          4488
+          4499
         ]
       },
       {
         "fullName": "alibaba/open-code-review",
         "url": "https://github.com/alibaba/open-code-review",
-        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "description": "安全、快速、高效，經阿里巴巴規模實戰驗證。混合架構程式碼審查工具：確定性流程 + LLM Agent，精準行級註解，內建多語言規則集（NPE、執行緒安全、XSS、SQL 注入），相容 OpenAI 與 Anthropic。",
         "language": "Go",
-        "stars": 54416,
-        "gain": 4412,
+        "stars": 54427,
+        "gain": 4423,
         "days": 7,
         "series": [
           0,
@@ -2034,16 +2034,16 @@
           3170,
           3949,
           4229,
-          4412
+          4423
         ]
       },
       {
         "fullName": "meta/astryx",
         "url": "https://github.com/meta/astryx",
-        "description": "An open source design system that's fully customizable and agent ready",
+        "description": "一套完全可客製化且適合代理使用的開源設計系統。",
         "language": "TypeScript",
-        "stars": 31019,
-        "gain": 4143,
+        "stars": 31035,
+        "gain": 4159,
         "days": 7,
         "series": [
           0,
@@ -2053,16 +2053,16 @@
           2914,
           3420,
           3821,
-          4143
+          4159
         ]
       },
       {
         "fullName": "milind-soni/OpenMausBot",
         "url": "https://github.com/milind-soni/OpenMausBot",
-        "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+        "description": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。",
         "language": "TypeScript",
-        "stars": 25867,
-        "gain": 4098,
+        "stars": 25873,
+        "gain": 4104,
         "days": 7,
         "series": [
           0,
@@ -2072,16 +2072,16 @@
           2568,
           3218,
           3754,
-          4098
+          4104
         ]
       },
       {
         "fullName": "anthropics/skills",
         "url": "https://github.com/anthropics/skills",
-        "description": "Public repository for Agent Skills",
+        "description": "Agent Skills 公開儲存庫",
         "language": "Python",
-        "stars": 197743,
-        "gain": 4065,
+        "stars": 197749,
+        "gain": 4071,
         "days": 7,
         "series": [
           0,
@@ -2091,16 +2091,16 @@
           2532,
           3194,
           3685,
-          4065
+          4071
         ]
       },
       {
         "fullName": "sherlock-project/sherlock",
         "url": "https://github.com/sherlock-project/sherlock",
-        "description": "Hunt down social media accounts by username across social networks",
+        "description": "依使用者名稱在各社群網路中搜尋社群媒體帳號。",
         "language": "Python",
-        "stars": 114656,
-        "gain": 4035,
+        "stars": 114665,
+        "gain": 4044,
         "days": 7,
         "series": [
           0,
@@ -2110,7 +2110,7 @@
           2711,
           3273,
           3680,
-          4035
+          4044
         ]
       }
     ],
@@ -2118,10 +2118,10 @@
       {
         "fullName": "obra/superpowers",
         "url": "https://github.com/obra/superpowers",
-        "description": "An agentic skills framework & software development methodology that works.",
+        "description": "一套真正有效的代理技能框架與軟體開發方法論。",
         "language": "Shell",
-        "stars": 322171,
-        "gain": 5521,
+        "stars": 322188,
+        "gain": 5538,
         "days": 7,
         "series": [
           0,
@@ -2131,16 +2131,16 @@
           2045,
           2831,
           4828,
-          5521
+          5538
         ]
       },
       {
         "fullName": "firecrawl/firecrawl",
         "url": "https://github.com/firecrawl/firecrawl",
-        "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+        "description": "為你的 Agent 打造更聰明的知識基礎設施。透過單一 API 進行搜尋、爬取，並存取 550 多個資料提供者。",
         "language": "TypeScript",
-        "stars": 204350,
-        "gain": 3149,
+        "stars": 204374,
+        "gain": 3173,
         "days": 7,
         "series": [
           0,
@@ -2150,16 +2150,16 @@
           1166,
           1477,
           2189,
-          3149
+          3173
         ]
       },
       {
         "fullName": "anthropics/skills",
         "url": "https://github.com/anthropics/skills",
-        "description": "Public repository for Agent Skills",
+        "description": "Agent Skills 公開儲存庫",
         "language": "Python",
-        "stars": 197743,
-        "gain": 4065,
+        "stars": 197749,
+        "gain": 4071,
         "days": 7,
         "series": [
           0,
@@ -2169,16 +2169,16 @@
           2532,
           3194,
           3685,
-          4065
+          4071
         ]
       },
       {
         "fullName": "thedotmack/claude-mem",
         "url": "https://github.com/thedotmack/claude-mem",
-        "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+        "description": "為每個 Agent 提供跨工作階段的持久上下文。擷取 Agent 在工作階段中的所有操作，以 AI 壓縮後，將相關上下文注入後續工作階段。支援 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等更多工具。",
         "language": "TypeScript",
-        "stars": 118472,
-        "gain": 1977,
+        "stars": 118477,
+        "gain": 1982,
         "days": 7,
         "series": [
           0,
@@ -2188,16 +2188,16 @@
           1229,
           1535,
           1785,
-          1977
+          1982
         ]
       },
       {
         "fullName": "sherlock-project/sherlock",
         "url": "https://github.com/sherlock-project/sherlock",
-        "description": "Hunt down social media accounts by username across social networks",
+        "description": "依使用者名稱在各社群網路中搜尋社群媒體帳號。",
         "language": "Python",
-        "stars": 114656,
-        "gain": 4035,
+        "stars": 114665,
+        "gain": 4044,
         "days": 7,
         "series": [
           0,
@@ -2207,16 +2207,16 @@
           2711,
           3273,
           3680,
-          4035
+          4044
         ]
       },
       {
         "fullName": "pbakaus/impeccable",
         "url": "https://github.com/pbakaus/impeccable",
-        "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+        "description": "程式碼代理的設計詞彙。以 polish 與 bolder 引導，以 critique 與 audit 審查，在 AI 粗製濫造的內容出貨前將其攔下。",
         "language": "Rust",
-        "stars": 113537,
-        "gain": 4488,
+        "stars": 113548,
+        "gain": 4499,
         "days": 7,
         "series": [
           0,
@@ -2226,16 +2226,16 @@
           2508,
           3373,
           4012,
-          4488
+          4499
         ]
       },
       {
         "fullName": "heygen-com/hyperframes",
         "url": "https://github.com/heygen-com/hyperframes",
-        "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+        "description": "真正可編輯的 AI 影片。HyperFrames 是一款免費開源的 AI 影片編輯器。描述任何影片，即可取得可逐影格修改的真實專案。",
         "language": "TypeScript",
-        "stars": 87079,
-        "gain": 3569,
+        "stars": 87085,
+        "gain": 3575,
         "days": 7,
         "series": [
           0,
@@ -2245,16 +2245,16 @@
           1890,
           2640,
           3175,
-          3569
+          3575
         ]
       },
       {
         "fullName": "cloudflare/security-audit-skill",
         "url": "https://github.com/cloudflare/security-audit-skill",
-        "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+        "description": "適用於程式碼代理的技能，用於多階段安全稽核，產出經獨立驗證、機器可讀的發現結果。",
         "language": "JavaScript",
-        "stars": 75882,
-        "gain": 4575,
+        "stars": 75896,
+        "gain": 4589,
         "days": 7,
         "series": [
           0,
@@ -2264,16 +2264,16 @@
           2816,
           3663,
           4184,
-          4575
+          4589
         ]
       },
       {
         "fullName": "toeverything/AFFiNE",
         "url": "https://github.com/toeverything/AFFiNE",
-        "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+        "description": "Notion 和 Miro 之外，還有更多選擇。AFFiNE（發音 [ə‘fain]）是新一代知識庫，將規劃、整理與創作整合在一起。以隱私為優先、開源、可自訂，開箱即用。",
         "language": "TypeScript",
-        "stars": 75236,
-        "gain": 788,
+        "stars": 75249,
+        "gain": 801,
         "days": 7,
         "series": [
           0,
@@ -2283,16 +2283,16 @@
           118,
           155,
           314,
-          788
+          801
         ]
       },
       {
         "fullName": "mvanhorn/last30days-skill",
         "url": "https://github.com/mvanhorn/last30days-skill",
-        "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+        "description": "AI 代理技能，可跨 Reddit、X、YouTube、HN、Polymarket 與網路研究任何主題，然後綜合成有依據的摘要。",
         "language": "Python",
-        "stars": 70875,
-        "gain": 3480,
+        "stars": 70892,
+        "gain": 3497,
         "days": 7,
         "series": [
           0,
@@ -2302,16 +2302,16 @@
           954,
           1985,
           2916,
-          3480
+          3497
         ]
       },
       {
         "fullName": "cathrynlavery/diagram-design",
         "url": "https://github.com/cathrynlavery/diagram-design",
-        "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+        "description": "適用於 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 與 Pi 的編輯式圖表設計。45 種圖表類型。獨立 HTML + SVG。無陰影。拒絕 Mermaid 式粗製濫造。",
         "language": "HTML",
-        "stars": 68713,
-        "gain": 1994,
+        "stars": 68734,
+        "gain": 2015,
         "days": 7,
         "series": [
           0,
@@ -2321,16 +2321,16 @@
           991,
           1297,
           1577,
-          1994
+          2015
         ]
       },
       {
         "fullName": "jingyaogong/minimind",
         "url": "https://github.com/jingyaogong/minimind",
-        "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+        "description": "🧠 兩小時從零訓練出你自己的 64M LLM。",
         "language": "Python",
-        "stars": 66997,
-        "gain": 1856,
+        "stars": 67034,
+        "gain": 1893,
         "days": 7,
         "series": [
           0,
@@ -2340,16 +2340,16 @@
           438,
           1129,
           1431,
-          1856
+          1893
         ]
       },
       {
         "fullName": "pingdotgg/t3code",
         "url": "https://github.com/pingdotgg/t3code",
-        "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+        "description": "從任何電腦或手機控制 Claude Code、Codex 等工具的最佳方式。",
         "language": "TypeScript",
-        "stars": 66553,
-        "gain": 7898,
+        "stars": 66587,
+        "gain": 7932,
         "days": 7,
         "series": [
           0,
@@ -2359,16 +2359,16 @@
           4512,
           5829,
           6940,
-          7898
+          7932
         ]
       },
       {
         "fullName": "HKUDS/DeepTutor",
         "url": "https://github.com/HKUDS/DeepTutor",
-        "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+        "description": "DeepTutor：終身個人化家教。https://deeptutor.info/.",
         "language": "Python",
-        "stars": 60847,
-        "gain": 2145,
+        "stars": 60859,
+        "gain": 2157,
         "days": 7,
         "series": [
           0,
@@ -2378,16 +2378,16 @@
           1162,
           1499,
           1924,
-          2145
+          2157
         ]
       },
       {
         "fullName": "HKUDS/CLI-Anything",
         "url": "https://github.com/HKUDS/CLI-Anything",
-        "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+        "description": "「CLI-Anything：讓所有軟體都原生支援代理」-- CLI-Hub: https://clianything.cc/",
         "language": "Python",
-        "stars": 60646,
-        "gain": 2014,
+        "stars": 60663,
+        "gain": 2031,
         "days": 7,
         "series": [
           0,
@@ -2397,16 +2397,16 @@
           229,
           608,
           1419,
-          2014
+          2031
         ]
       },
       {
         "fullName": "ChromeDevTools/chrome-devtools-mcp",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-        "description": "Chrome DevTools for coding agents",
+        "description": "供程式碼代理使用的 Chrome DevTools",
         "language": "TypeScript",
-        "stars": 58392,
-        "gain": 3266,
+        "stars": 58395,
+        "gain": 3269,
         "days": 7,
         "series": [
           0,
@@ -2416,16 +2416,16 @@
           2703,
           2976,
           3131,
-          3266
+          3269
         ]
       },
       {
         "fullName": "Nutlope/hallmark",
         "url": "https://github.com/Nutlope/hallmark",
-        "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "description": "適用於 Claude Code、Cursor 與 Codex 的反 AI 粗製濫造設計技能。",
         "language": "CSS",
-        "stars": 58110,
-        "gain": 4004,
+        "stars": 58121,
+        "gain": 4015,
         "days": 7,
         "series": [
           0,
@@ -2435,16 +2435,16 @@
           2211,
           3005,
           3592,
-          4004
+          4015
         ]
       },
       {
         "fullName": "alibaba/open-code-review",
         "url": "https://github.com/alibaba/open-code-review",
-        "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+        "description": "安全、快速、高效，經阿里巴巴規模實戰驗證。混合架構程式碼審查工具：確定性流程 + LLM Agent，精準行級註解，內建多語言規則集（NPE、執行緒安全、XSS、SQL 注入），相容 OpenAI 與 Anthropic。",
         "language": "Go",
-        "stars": 54416,
-        "gain": 4412,
+        "stars": 54427,
+        "gain": 4423,
         "days": 7,
         "series": [
           0,
@@ -2454,16 +2454,16 @@
           3170,
           3949,
           4229,
-          4412
+          4423
         ]
       },
       {
         "fullName": "vercel-labs/agent-browser",
         "url": "https://github.com/vercel-labs/agent-browser",
-        "description": "Browser automation CLI for AI agents",
+        "description": "供 AI Agent 使用的瀏覽器自動化命令列工具",
         "language": "Rust",
-        "stars": 52905,
-        "gain": 2508,
+        "stars": 52909,
+        "gain": 2512,
         "days": 7,
         "series": [
           0,
@@ -2473,16 +2473,16 @@
           1737,
           2052,
           2322,
-          2508
+          2512
         ]
       },
       {
         "fullName": "storytold/craft-anything",
         "url": "https://github.com/storytold/craft-anything",
-        "description": "Craft Anything: understand how any software works, and craft your own.",
+        "description": "Craft Anything：理解任何軟體的運作方式，並打造屬於你自己的作品。",
         "language": "Rust",
-        "stars": 38621,
-        "gain": 8173,
+        "stars": 38657,
+        "gain": 8209,
         "days": 7,
         "series": [
           0,
@@ -2492,7 +2492,7 @@
           4626,
           5678,
           7094,
-          8173
+          8209
         ]
       }
     ]
