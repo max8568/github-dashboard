@@ -1,1 +1,422 @@
-{}
+{
+  "Nutlope/hallmark": {
+    "2026-11-20": 58096
+  },
+  "cloudflare/security-audit-skill": {
+    "2026-11-20": 75878
+  },
+  "milind-soni/OpenMausBot": {
+    "2026-11-20": 25860
+  },
+  "pingdotgg/t3code": {
+    "2026-11-20": 66532
+  },
+  "anthropics/skills": {
+    "2026-11-20": 197739
+  },
+  "thedotmack/claude-mem": {
+    "2026-11-20": 118468
+  },
+  "Jakeschincariol/instagram-agent-skill": {
+    "2026-11-20": 7394
+  },
+  "backnotprop/plannotator": {
+    "2026-11-20": 13686
+  },
+  "HKUDS/DeepTutor": {
+    "2026-11-20": 60842
+  },
+  "pbakaus/impeccable": {
+    "2026-11-20": 113527
+  },
+  "sherlock-project/sherlock": {
+    "2026-11-20": 114645
+  },
+  "AgriciDaniel/claude-seo": {
+    "2026-11-20": 30958
+  },
+  "google-labs-code/stitch-skills": {
+    "2026-11-20": 10752
+  },
+  "heygen-com/hyperframes": {
+    "2026-11-20": 87076
+  },
+  "elementalsouls/Claude-BugHunter": {
+    "2026-11-20": 12658
+  },
+  "kajisho5/ffmpeg-skill": {
+    "2026-11-20": 8403
+  },
+  "vercel-labs/agent-browser": {
+    "2026-11-20": 52902
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+    "2026-11-20": 9141
+  },
+  "alibaba/open-code-review": {
+    "2026-11-20": 54415
+  },
+  "mvanhorn/last30days-skill": {
+    "2026-11-20": 70860
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "2026-11-20": 58385
+  },
+  "tradermonty/claude-trading-skills": {
+    "2026-11-20": 7273
+  },
+  "ag-ui-protocol/ag-ui": {
+    "2026-11-20": 20657
+  },
+  "meta/astryx": {
+    "2026-11-20": 31014
+  },
+  "pookjw/HermesEnabler": {
+    "2026-11-20": 2258
+  },
+  "we-promise/sure": {
+    "2026-11-20": 16741
+  },
+  "dream-num/univer": {
+    "2026-11-20": 30445
+  },
+  "obra/superpowers": {
+    "2026-11-20": 322154
+  },
+  "HKUDS/CLI-Anything": {
+    "2026-11-20": 60633
+  },
+  "jingyaogong/minimind": {
+    "2026-11-20": 66975
+  },
+  "cursor/plugins": {
+    "2026-11-20": 17585
+  },
+  "firecrawl/firecrawl": {
+    "2026-11-20": 204333
+  },
+  "nginx/nginx": {
+    "2026-11-20": 32361
+  },
+  "openvinotoolkit/openvino": {
+    "2026-11-20": 11586
+  },
+  "cathrynlavery/diagram-design": {
+    "2026-11-20": 68697
+  },
+  "mjmirza/app-store-compliance": {
+    "2026-11-20": 1915
+  },
+  "Tracer-Cloud/opensre": {
+    "2026-11-20": 13180
+  },
+  "toeverything/AFFiNE": {
+    "2026-11-20": 75224
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+    "2026-11-20": 12847
+  },
+  "zhouxiaoka/autoclip": {
+    "2026-11-20": 11352
+  },
+  "storytold/craft-anything": {
+    "2026-11-20": 38596
+  },
+  "ccch1mneyyy/dsh-Go": {
+    "2026-11-20": 28276
+  },
+  "deepseek-ai/dsh-superagent-prototype": {
+    "2026-11-20": 23963
+  },
+  "heydamir/unslop": {
+    "2026-11-20": 18709
+  },
+  "anefzaoui/misterdownloadmanager": {
+    "2026-11-20": 13811
+  },
+  "libracoder/kiri": {
+    "2026-11-20": 11303
+  },
+  "JuneYaooo/rea-video": {
+    "2026-11-20": 11098
+  },
+  "Minireel/HGhub": {
+    "2026-11-20": 10338
+  },
+  "janestreet/agent_skills": {
+    "2026-11-20": 10301
+  },
+  "zortos293/Lichii": {
+    "2026-11-20": 9842
+  },
+  "wangzan101/Mika": {
+    "2026-11-20": 9198
+  },
+  "huami1314/GestaltX": {
+    "2026-11-20": 8550
+  },
+  "rddmwmddr/android-ad-cleaner": {
+    "2026-11-20": 8453
+  },
+  "RoutineMiku/apkstart": {
+    "2026-11-20": 8352
+  },
+  "patch-gg/pixelfx": {
+    "2026-11-20": 8331
+  },
+  "unclebob/ub-mode": {
+    "2026-11-20": 8238
+  },
+  "valentderah/totk-pc-recomp": {
+    "2026-11-20": 7759
+  },
+  "anomalyco/rune": {
+    "2026-11-20": 7613
+  },
+  "anhao/ai-pose-gallery-zh": {
+    "2026-11-20": 7358
+  },
+  "Lee-xeo/Claude-Cage": {
+    "2026-11-20": 6883
+  },
+  "qybaihe/bla": {
+    "2026-11-20": 6220
+  },
+  "Eglantine-Community/Eglantine": {
+    "2026-11-20": 6145
+  },
+  "vercel-labs/ui": {
+    "2026-11-20": 6140
+  },
+  "KKKKhazix/agent-autoloop": {
+    "2026-11-20": 6039
+  },
+  "erkamyaman/rust-anything": {
+    "2026-11-20": 5308
+  },
+  "interplains/Zero-Breach-Toolkit": {
+    "2026-11-20": 5244
+  },
+  "haydenschmitty/floorplan": {
+    "2026-11-20": 5138
+  },
+  "designfuchen/word-atlas": {
+    "2026-11-20": 5101
+  },
+  "deepseek-ai/chat-demo": {
+    "2026-11-20": 5035
+  },
+  "BryceYuuu/RUN": {
+    "2026-11-20": 4981
+  },
+  "JustAResearcher/gpu-unlock-ada": {
+    "2026-11-20": 4949
+  },
+  "modelflare-ai/AnyModelBot": {
+    "2026-11-20": 4808
+  },
+  "expo/exact": {
+    "2026-11-20": 4733
+  },
+  "krisgfx9/Wireless-Device-Battery-Monitor": {
+    "2026-11-20": 4697
+  },
+  "tangerineturtle1/NX2navi": {
+    "2026-11-20": 4335
+  },
+  "mromidev/claude-animated-shorts": {
+    "2026-11-20": 4262
+  },
+  "mdiri-ai/SoduWork": {
+    "2026-11-20": 4251
+  },
+  "t3dotgg/tstack": {
+    "2026-11-20": 4199
+  },
+  "ersinkoc/phonebox": {
+    "2026-11-20": 3880
+  },
+  "elvarofficial/teardown": {
+    "2026-11-20": 3849
+  },
+  "benjitaylor/skills": {
+    "2026-11-20": 3817
+  },
+  "JenkinWoo/sheeridVerify": {
+    "2026-11-20": 3744
+  },
+  "jhaizhou-ops/S2Arm": {
+    "2026-11-20": 3685
+  },
+  "Verlintas/NOIR": {
+    "2026-11-20": 3658
+  },
+  "shanselman/gputaskman": {
+    "2026-11-20": 3586
+  },
+  "paipiange/nvzhuang": {
+    "2026-11-20": 2925
+  },
+  "govijr/terminal-mac": {
+    "2026-11-20": 2890
+  },
+  "oosexgang/hakios-xnu-kernel": {
+    "2026-11-20": 2828
+  },
+  "jamesondh/chimera-vocal-synth": {
+    "2026-11-20": 2806
+  },
+  "sarpstar/cinecode": {
+    "2026-11-20": 2782
+  },
+  "physicsdolphin/nv-uefi-unlocker": {
+    "2026-11-20": 2735
+  },
+  "apex-compute/ANR": {
+    "2026-11-20": 2703
+  },
+  "DenisSergeevitch/ex-ussr-kinship-research": {
+    "2026-11-20": 2684
+  },
+  "caru-ini/stack-diagram": {
+    "2026-11-20": 2662
+  },
+  "FrigadeHQ/yogurt": {
+    "2026-11-20": 2629
+  },
+  "Immortal-Protocols/lastbook": {
+    "2026-11-20": 2599
+  },
+  "Kianuni/Erosion-CN": {
+    "2026-11-20": 2572
+  },
+  "DIYgod/pinky": {
+    "2026-11-20": 2546
+  },
+  "Noniv/abyssal-garden": {
+    "2026-11-20": 2511
+  },
+  "Leviidev/Henge": {
+    "2026-11-20": 2509
+  },
+  "D3voz/openjutsu": {
+    "2026-11-20": 2500
+  },
+  "N1nEmAn/sapper-v2": {
+    "2026-11-20": 2495
+  },
+  "gylive/google-ultra": {
+    "2026-11-20": 2459
+  },
+  "wquguru/cicada": {
+    "2026-11-20": 2423
+  },
+  "IainKay/ram-altman": {
+    "2026-11-20": 2343
+  },
+  "Motionsites-AI/claude-skill": {
+    "2026-11-20": 2311
+  },
+  "HolyArrs/HolyArrs": {
+    "2026-11-20": 2279
+  },
+  "toyxyz/toyxyz_RGBMocap": {
+    "2026-11-20": 2232
+  },
+  "enesozturk/dimensional-drawing": {
+    "2026-11-20": 2202
+  },
+  "Sandflow-ai/sand3d": {
+    "2026-11-20": 2177
+  },
+  "man15h/tellyscope": {
+    "2026-11-20": 2139
+  },
+  "lexifina/global-law": {
+    "2026-11-20": 2122
+  },
+  "morganlinton/BeautifulRust": {
+    "2026-11-20": 2070
+  },
+  "WoYun520/gif-factory": {
+    "2026-11-20": 2051
+  },
+  "andyhuo520/digital-human-koubo": {
+    "2026-11-20": 2047
+  },
+  "CzJam/gjgjxweb": {
+    "2026-11-20": 2036
+  },
+  "mmdoctor/google-pro-helper": {
+    "2026-11-20": 2018
+  },
+  "s1dashu/quiet-md": {
+    "2026-11-20": 2012
+  },
+  "Eynnzerr/TelemetryCleaner": {
+    "2026-11-20": 1990
+  },
+  "ZiChuanLan/agent-purge": {
+    "2026-11-20": 1983
+  },
+  "daveebbelaar/bama": {
+    "2026-11-20": 1912
+  },
+  "NiazMorshed2007/reanimate": {
+    "2026-11-20": 1874
+  },
+  "BookracyFOS/bookracy": {
+    "2026-11-20": 1870
+  },
+  "yjid/kensaku": {
+    "2026-11-20": 1868
+  },
+  "aschmelyun/print-my-profile-pic": {
+    "2026-11-20": 1866
+  },
+  "HybridRobotics/supermimic": {
+    "2026-11-20": 1865
+  },
+  "jacke-pp/open-yoki": {
+    "2026-11-20": 1856
+  },
+  "shirai91/nx2android": {
+    "2026-11-20": 1855
+  },
+  "sqlpxc/airhand": {
+    "2026-11-20": 1829
+  },
+  "ZiChuanLan/freebie-radar": {
+    "2026-11-20": 1801
+  },
+  "Hut-hzf/ung220z-tool": {
+    "2026-11-20": 1776
+  },
+  "Arjun-Ingole/hop": {
+    "2026-11-20": 1774
+  },
+  "agentes-chat/agentes-chat": {
+    "2026-11-20": 1760
+  },
+  "simplexai-labs/linger": {
+    "2026-11-20": 1752
+  },
+  "chadyi/StudyOnTV": {
+    "2026-11-20": 1721
+  },
+  "HRuiCcc/RuiC-PoseAtlas": {
+    "2026-11-20": 1717
+  },
+  "anonnerdfrenzy/survival-llm": {
+    "2026-11-20": 1710
+  },
+  "elripalda/RecompLauncher": {
+    "2026-11-20": 1704
+  },
+  "kevinraymond/florilegium": {
+    "2026-11-20": 1686
+  },
+  "JosssphZhou/poki": {
+    "2026-11-20": 1663
+  }
+}
