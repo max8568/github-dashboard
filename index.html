@@ -274,7 +274,12 @@ function renderChart(ranking, items) {
           borderColor: css("--border"),
           borderWidth: 1,
           callbacks: {
-            label: (ctx) => `${ctx.dataset.label}  ${fmt(ctx.parsed.y)}`,
+            label: (ctx) => {
+              const prev = ctx.dataIndex > 0 ? ctx.dataset.data[ctx.dataIndex - 1] : null;
+              if (prev == null) return `${ctx.dataset.label}  ${fmt(ctx.parsed.y)}`;
+              const diff = ctx.parsed.y - prev;
+              return `${ctx.dataset.label}  ${fmt(ctx.parsed.y)}（比前一天 ${diff >= 0 ? "+" : ""}${fmt(diff)}）`;
+            },
           },
         },
       },
