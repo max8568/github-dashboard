@@ -41,8 +41,8 @@
         "url": "https://github.com/cloudflare/security-audit-skill",
         "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
-        "stars": 75881,
-        "gain": 41446,
+        "stars": 75882,
+        "gain": 41447,
         "days": 30,
         "series": [
           0,
@@ -75,7 +75,7 @@
           39688,
           40535,
           41056,
-          41446
+          41447
         ]
       },
       {
@@ -83,8 +83,8 @@
         "url": "https://github.com/storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38616,
-        "gain": 38616,
+        "stars": 38621,
+        "gain": 38621,
         "days": 30,
         "series": [
           0,
@@ -117,7 +117,7 @@
           35074,
           36126,
           37542,
-          38616
+          38621
         ]
       },
       {
@@ -125,8 +125,8 @@
         "url": "https://github.com/pingdotgg/t3code",
         "description": "The best way to control Claude Code, Codex and more from any computer or phone",
         "language": "TypeScript",
-        "stars": 66550,
-        "gain": 37868,
+        "stars": 66553,
+        "gain": 37871,
         "days": 30,
         "series": [
           0,
@@ -159,7 +159,7 @@
           34485,
           35802,
           36913,
-          37868
+          37871
         ]
       },
       {
@@ -167,8 +167,8 @@
         "url": "https://github.com/pbakaus/impeccable",
         "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
         "language": "Rust",
-        "stars": 113532,
-        "gain": 29987,
+        "stars": 113537,
+        "gain": 29992,
         "days": 30,
         "series": [
           0,
@@ -201,7 +201,7 @@
           28012,
           28877,
           29516,
-          29987
+          29992
         ]
       },
       {
@@ -209,8 +209,8 @@
         "url": "https://github.com/ccch1mneyyy/dsh-Go",
         "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
         "language": "Dart",
-        "stars": 28292,
-        "gain": 28292,
+        "stars": 28298,
+        "gain": 28298,
         "days": 30,
         "series": [
           0,
@@ -243,7 +243,7 @@
           25210,
           26451,
           27563,
-          28292
+          28298
         ]
       },
       {
@@ -251,8 +251,8 @@
         "url": "https://github.com/Nutlope/hallmark",
         "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "language": "CSS",
-        "stars": 58106,
-        "gain": 27848,
+        "stars": 58110,
+        "gain": 27852,
         "days": 30,
         "series": [
           0,
@@ -285,7 +285,7 @@
           26059,
           26853,
           27440,
-          27848
+          27852
         ]
       },
       {
@@ -335,8 +335,8 @@
         "url": "https://github.com/obra/superpowers",
         "description": "An agentic skills framework & software development methodology that works.",
         "language": "Shell",
-        "stars": 322166,
-        "gain": 20687,
+        "stars": 322171,
+        "gain": 20692,
         "days": 30,
         "series": [
           0,
@@ -369,7 +369,7 @@
           17216,
           18002,
           19999,
-          20687
+          20692
         ]
       },
       {
@@ -377,8 +377,8 @@
         "url": "https://github.com/milind-soni/OpenMausBot",
         "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
         "language": "TypeScript",
-        "stars": 25865,
-        "gain": 20621,
+        "stars": 25867,
+        "gain": 20623,
         "days": 30,
         "series": [
           0,
@@ -411,7 +411,7 @@
           19093,
           19743,
           20279,
-          20621
+          20623
         ]
       },
       {
@@ -461,8 +461,8 @@
         "url": "https://github.com/HKUDS/DeepTutor",
         "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
         "language": "Python",
-        "stars": 60846,
-        "gain": 19117,
+        "stars": 60847,
+        "gain": 19118,
         "days": 30,
         "series": [
           0,
@@ -495,7 +495,7 @@
           18135,
           18472,
           18897,
-          19117
+          19118
         ]
       },
       {
@@ -503,8 +503,8 @@
         "url": "https://github.com/heygen-com/hyperframes",
         "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
         "language": "TypeScript",
-        "stars": 87080,
-        "gain": 18750,
+        "stars": 87079,
+        "gain": 18749,
         "days": 30,
         "series": [
           0,
@@ -537,7 +537,7 @@
           17070,
           17820,
           18355,
-          18750
+          18749
         ]
       },
       {
@@ -545,8 +545,8 @@
         "url": "https://github.com/heydamir/unslop",
         "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
         "language": "JavaScript",
-        "stars": 18714,
-        "gain": 18714,
+        "stars": 18715,
+        "gain": 18715,
         "days": 30,
         "series": [
           0,
@@ -579,7 +579,7 @@
           17384,
           17944,
           18406,
-          18714
+          18715
         ]
       },
       {
@@ -587,8 +587,8 @@
         "url": "https://github.com/meta/astryx",
         "description": "An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
-        "stars": 31017,
-        "gain": 17413,
+        "stars": 31019,
+        "gain": 17415,
         "days": 30,
         "series": [
           0,
@@ -621,7 +621,7 @@
           16186,
           16692,
           17093,
-          17413
+          17415
         ]
       },
       {
@@ -629,8 +629,8 @@
         "url": "https://github.com/thedotmack/claude-mem",
         "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
         "language": "TypeScript",
-        "stars": 118471,
-        "gain": 16991,
+        "stars": 118472,
+        "gain": 16992,
         "days": 30,
         "series": [
           0,
@@ -663,7 +663,7 @@
           16244,
           16550,
           16800,
-          16991
+          16992
         ]
       },
       {
@@ -671,8 +671,8 @@
         "url": "https://github.com/anthropics/skills",
         "description": "Public repository for Agent Skills",
         "language": "Python",
-        "stars": 197740,
-        "gain": 15698,
+        "stars": 197743,
+        "gain": 15701,
         "days": 30,
         "series": [
           0,
@@ -705,7 +705,7 @@
           14168,
           14830,
           15321,
-          15698
+          15701
         ]
       },
       {
@@ -713,8 +713,8 @@
         "url": "https://github.com/anefzaoui/misterdownloadmanager",
         "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
         "language": "Rust",
-        "stars": 13818,
-        "gain": 13817,
+        "stars": 13821,
+        "gain": 13820,
         "days": 30,
         "series": [
           0,
@@ -747,7 +747,7 @@
           11330,
           12418,
           13317,
-          13817
+          13820
         ]
       },
       {
@@ -755,8 +755,8 @@
         "url": "https://github.com/AgriciDaniel/claude-seo",
         "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
         "language": "Python",
-        "stars": 30963,
-        "gain": 11559,
+        "stars": 30964,
+        "gain": 11560,
         "days": 30,
         "series": [
           0,
@@ -789,7 +789,7 @@
           10737,
           11071,
           11346,
-          11559
+          11560
         ]
       },
       {
@@ -797,8 +797,8 @@
         "url": "https://github.com/firecrawl/firecrawl",
         "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
         "language": "TypeScript",
-        "stars": 204343,
-        "gain": 11491,
+        "stars": 204350,
+        "gain": 11498,
         "days": 30,
         "series": [
           0,
@@ -831,7 +831,7 @@
           9515,
           9826,
           10538,
-          11491
+          11498
         ]
       },
       {
@@ -839,8 +839,8 @@
         "url": "https://github.com/libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11311,
-        "gain": 11311,
+        "stars": 11314,
+        "gain": 11314,
         "days": 30,
         "series": [
           0,
@@ -873,7 +873,7 @@
           9355,
           10348,
           10935,
-          11311
+          11314
         ]
       }
     ]
@@ -896,8 +896,8 @@
         "url": "https://github.com/libracoder/kiri",
         "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
         "language": "Rust",
-        "stars": 11311,
-        "gain": 9460,
+        "stars": 11314,
+        "gain": 9463,
         "days": 7,
         "series": [
           0,
@@ -907,7 +907,7 @@
           7504,
           8497,
           9084,
-          9460
+          9463
         ]
       },
       {
@@ -915,8 +915,8 @@
         "url": "https://github.com/RoutineMiku/apkstart",
         "description": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
         "language": "JavaScript",
-        "stars": 8360,
-        "gain": 8283,
+        "stars": 8363,
+        "gain": 8286,
         "days": 7,
         "series": [
           0,
@@ -926,7 +926,7 @@
           6776,
           7529,
           7951,
-          8283
+          8286
         ]
       },
       {
@@ -934,8 +934,8 @@
         "url": "https://github.com/storytold/craft-anything",
         "description": "Craft Anything: understand how any software works, and craft your own.",
         "language": "Rust",
-        "stars": 38616,
-        "gain": 8168,
+        "stars": 38621,
+        "gain": 8173,
         "days": 7,
         "series": [
           0,
@@ -945,7 +945,7 @@
           4626,
           5678,
           7094,
-          8168
+          8173
         ]
       },
       {
@@ -953,8 +953,8 @@
         "url": "https://github.com/pingdotgg/t3code",
         "description": "The best way to control Claude Code, Codex and more from any computer or phone",
         "language": "TypeScript",
-        "stars": 66550,
-        "gain": 7895,
+        "stars": 66553,
+        "gain": 7898,
         "days": 7,
         "series": [
           0,
@@ -964,7 +964,7 @@
           4512,
           5829,
           6940,
-          7895
+          7898
         ]
       },
       {
@@ -972,8 +972,8 @@
         "url": "https://github.com/ccch1mneyyy/dsh-Go",
         "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
         "language": "Dart",
-        "stars": 28292,
-        "gain": 7176,
+        "stars": 28298,
+        "gain": 7182,
         "days": 7,
         "series": [
           0,
@@ -983,7 +983,7 @@
           4094,
           5335,
           6447,
-          7176
+          7182
         ]
       },
       {
@@ -991,8 +991,8 @@
         "url": "https://github.com/elementalsouls/Claude-BugHunter",
         "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
         "language": "Python",
-        "stars": 12670,
-        "gain": 7035,
+        "stars": 12679,
+        "gain": 7044,
         "days": 7,
         "series": [
           0,
@@ -1002,7 +1002,7 @@
           2149,
           4339,
           5956,
-          7035
+          7044
         ]
       },
       {
@@ -1010,8 +1010,8 @@
         "url": "https://github.com/dream-num/univer",
         "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
         "language": "TypeScript",
-        "stars": 30447,
-        "gain": 6955,
+        "stars": 30448,
+        "gain": 6956,
         "days": 7,
         "series": [
           0,
@@ -1021,7 +1021,7 @@
           4912,
           5951,
           6537,
-          6955
+          6956
         ]
       },
       {
@@ -1029,8 +1029,8 @@
         "url": "https://github.com/anefzaoui/misterdownloadmanager",
         "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
         "language": "Rust",
-        "stars": 13818,
-        "gain": 5588,
+        "stars": 13821,
+        "gain": 5591,
         "days": 7,
         "series": [
           0,
@@ -1040,7 +1040,7 @@
           3101,
           4189,
           5088,
-          5588
+          5591
         ]
       },
       {
@@ -1048,8 +1048,8 @@
         "url": "https://github.com/obra/superpowers",
         "description": "An agentic skills framework & software development methodology that works.",
         "language": "Shell",
-        "stars": 322166,
-        "gain": 5516,
+        "stars": 322171,
+        "gain": 5521,
         "days": 7,
         "series": [
           0,
@@ -1059,7 +1059,7 @@
           2045,
           2831,
           4828,
-          5516
+          5521
         ]
       },
       {
@@ -1067,8 +1067,8 @@
         "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
         "description": "Keep your coding agent up to date with the latest web best practices",
         "language": "TypeScript",
-        "stars": 9141,
-        "gain": 5437,
+        "stars": 9143,
+        "gain": 5439,
         "days": 7,
         "series": [
           0,
@@ -1078,7 +1078,7 @@
           4440,
           4862,
           5229,
-          5437
+          5439
         ]
       },
       {
@@ -1086,8 +1086,8 @@
         "url": "https://github.com/erkamyaman/rust-anything",
         "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
         "language": "Rust",
-        "stars": 5315,
-        "gain": 5315,
+        "stars": 5322,
+        "gain": 5322,
         "days": 7,
         "series": [
           0,
@@ -1097,7 +1097,7 @@
           1,
           1971,
           3881,
-          5315
+          5322
         ]
       },
       {
@@ -1105,8 +1105,8 @@
         "url": "https://github.com/deepseek-ai/chat-demo",
         "description": "Chat Demo",
         "language": "TypeScript",
-        "stars": 5036,
-        "gain": 5036,
+        "stars": 5038,
+        "gain": 5038,
         "days": 7,
         "series": [
           0,
@@ -1116,7 +1116,7 @@
           4283,
           4638,
           4922,
-          5036
+          5038
         ]
       },
       {
@@ -1124,8 +1124,8 @@
         "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
         "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
         "language": "C++",
-        "stars": 4698,
-        "gain": 4698,
+        "stars": 4701,
+        "gain": 4701,
         "days": 7,
         "series": [
           0,
@@ -1135,7 +1135,7 @@
           552,
           3207,
           4186,
-          4698
+          4701
         ]
       },
       {
@@ -1143,8 +1143,8 @@
         "url": "https://github.com/cloudflare/security-audit-skill",
         "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "language": "JavaScript",
-        "stars": 75881,
-        "gain": 4574,
+        "stars": 75882,
+        "gain": 4575,
         "days": 7,
         "series": [
           0,
@@ -1154,7 +1154,7 @@
           2816,
           3663,
           4184,
-          4574
+          4575
         ]
       },
       {
@@ -1162,8 +1162,8 @@
         "url": "https://github.com/pbakaus/impeccable",
         "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
         "language": "Rust",
-        "stars": 113532,
-        "gain": 4483,
+        "stars": 113537,
+        "gain": 4488,
         "days": 7,
         "series": [
           0,
@@ -1173,7 +1173,7 @@
           2508,
           3373,
           4012,
-          4483
+          4488
         ]
       },
       {
@@ -1181,8 +1181,8 @@
         "url": "https://github.com/alibaba/open-code-review",
         "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
         "language": "Go",
-        "stars": 54415,
-        "gain": 4411,
+        "stars": 54416,
+        "gain": 4412,
         "days": 7,
         "series": [
           0,
@@ -1192,7 +1192,7 @@
           3170,
           3949,
           4229,
-          4411
+          4412
         ]
       },
       {
@@ -1200,8 +1200,8 @@
         "url": "https://github.com/meta/astryx",
         "description": "An open source design system that's fully customizable and agent ready",
         "language": "TypeScript",
-        "stars": 31017,
-        "gain": 4141,
+        "stars": 31019,
+        "gain": 4143,
         "days": 7,
         "series": [
           0,
@@ -1211,7 +1211,7 @@
           2914,
           3420,
           3821,
-          4141
+          4143
         ]
       },
       {
@@ -1219,8 +1219,8 @@
         "url": "https://github.com/milind-soni/OpenMausBot",
         "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
         "language": "TypeScript",
-        "stars": 25865,
-        "gain": 4096,
+        "stars": 25867,
+        "gain": 4098,
         "days": 7,
         "series": [
           0,
@@ -1230,7 +1230,7 @@
           2568,
           3218,
           3754,
-          4096
+          4098
         ]
       },
       {
@@ -1238,8 +1238,8 @@
         "url": "https://github.com/anthropics/skills",
         "description": "Public repository for Agent Skills",
         "language": "Python",
-        "stars": 197740,
-        "gain": 4062,
+        "stars": 197743,
+        "gain": 4065,
         "days": 7,
         "series": [
           0,
@@ -1249,7 +1249,7 @@
           2532,
           3194,
           3685,
-          4062
+          4065
         ]
       },
       {
