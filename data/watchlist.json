@@ -2,12 +2,12 @@
   "Nutlope/hallmark": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "cloudflare/security-audit-skill": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "milind-soni/OpenMausBot": {
     "lastSeen": "2026-11-20",
@@ -17,17 +17,17 @@
   "pingdotgg/t3code": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "anthropics/skills": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "thedotmack/claude-mem": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "Jakeschincariol/instagram-agent-skill": {
     "lastSeen": "2026-11-20",
@@ -42,17 +42,17 @@
   "HKUDS/DeepTutor": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "pbakaus/impeccable": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "sherlock-project/sherlock": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "AgriciDaniel/claude-seo": {
     "lastSeen": "2026-11-20",
@@ -67,7 +67,7 @@
   "heygen-com/hyperframes": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "elementalsouls/Claude-BugHunter": {
     "lastSeen": "2026-11-20",
@@ -82,7 +82,7 @@
   "vercel-labs/agent-browser": {
     "lastSeen": "2026-11-20",
     "priority": 0,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "GoogleChrome/modern-web-guidance-src": {
     "lastSeen": "2026-11-20",
@@ -92,17 +92,17 @@
   "alibaba/open-code-review": {
     "lastSeen": "2026-11-20",
     "priority": 1,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "mvanhorn/last30days-skill": {
     "lastSeen": "2026-11-20",
     "priority": 1,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "ChromeDevTools/chrome-devtools-mcp": {
     "lastSeen": "2026-11-20",
     "priority": 1,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "tradermonty/claude-trading-skills": {
     "lastSeen": "2026-11-20",
@@ -137,17 +137,17 @@
   "obra/superpowers": {
     "lastSeen": "2026-11-20",
     "priority": 2,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "HKUDS/CLI-Anything": {
     "lastSeen": "2026-11-20",
     "priority": 2,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "jingyaogong/minimind": {
     "lastSeen": "2026-11-20",
     "priority": 2,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "cursor/plugins": {
     "lastSeen": "2026-11-20",
@@ -157,7 +157,7 @@
   "firecrawl/firecrawl": {
     "lastSeen": "2026-11-20",
     "priority": 2,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "nginx/nginx": {
     "lastSeen": "2026-11-20",
@@ -172,7 +172,7 @@
   "cathrynlavery/diagram-design": {
     "lastSeen": "2026-11-20",
     "priority": 2,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "mjmirza/app-store-compliance": {
     "lastSeen": "2026-11-20",
@@ -187,7 +187,7 @@
   "toeverything/AFFiNE": {
     "lastSeen": "2026-11-20",
     "priority": 2,
-    "backfill": "pending"
+    "backfill": "skipped"
   },
   "XiaoYouChR/Ghost-Downloader-3": {
     "lastSeen": "2026-11-20",
