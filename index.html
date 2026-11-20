@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 星星數觀察站</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<style>
+:root {
+  --bg: #FFFFFF;
+  --surface: #F6F7F9;
+  --border: #E2E5EA;
+  --ink: #1B1F26;
+  --muted: #5F6774;
+  --faint: #8A919C;
+  --accent: #2456C4;
+  --hover: #F3F5F8;
+  --a: #2456C4;
+  --a-soft: #EAF0FC;
+  --b: #8A6326;
+  --b-soft: #F5EFE4;
+  --font: "IBM Plex Sans", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Consolas, "Noto Sans TC", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171B;
+    --surface: #1B1E23;
+    --border: #2B3038;
+    --ink: #E5E7EB;
+    --muted: #9AA1AC;
+    --faint: #737B87;
+    --accent: #86A8F7;
+    --hover: #1D2026;
+    --a: #86A8F7;
+    --a-soft: #1E2840;
+    --b: #D2A866;
+    --b-soft: #2E2618;
+  }
+}
+html { color-scheme: light dark; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 16px; line-height: 1.85; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+code { font-family: var(--mono); font-size: .86em; background: var(--surface); border: 1px solid var(--border); padding: .05em .4em; border-radius: 4px; overflow-wrap: anywhere; }
+pre { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; overflow-x: auto; font-family: var(--mono); font-size: 13.5px; line-height: 1.7; }
+pre code { background: none; border: 0; padding: 0; font-size: inherit; overflow-wrap: normal; }
+td code, th code { overflow-wrap: normal; }
+
+/* Line colors for the chart (one per repo, repeating every 10). */
+:root {
+  --line-1: #2456C4;
+  --line-2: #D9480F;
+  --line-3: #2B8A3E;
+  --line-4: #AE3EC9;
+  --line-5: #C92A2A;
+  --line-6: #0C8599;
+  --line-7: #8A6326;
+  --line-8: #D6336C;
+  --line-9: #5F6774;
+  --line-10: #74B816;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --line-1: #86A8F7;
+    --line-2: #FF922B;
+    --line-3: #69DB7C;
+    --line-4: #DA77F2;
+    --line-5: #FF8787;
+    --line-6: #3BC9DB;
+    --line-7: #D2A866;
+    --line-8: #F783AC;
+    --line-9: #ADB5BD;
+    --line-10: #C0EB75;
+  }
+}
+
+* { box-sizing: border-box; }
+main { max-width: 1100px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 26px; font-weight: 600; margin: 0; line-height: 1.4; }
+.updated { color: var(--muted); font-size: 14px; margin: 4px 0 20px; }
+.tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.tabs button {
+  font: inherit; font-size: 15px; color: var(--muted); background: var(--bg);
+  border: 1px solid var(--border); border-radius: 8px; padding: 4px 14px; cursor: pointer;
+}
+.tabs button:hover { background: var(--hover); }
+.tabs button[aria-selected="true"] { color: var(--ink); background: var(--surface); font-weight: 600; }
+.chart-box { position: relative; height: 360px; border: 1px solid var(--border); border-radius: 8px; padding: 12px; background: var(--bg); }
+.hint { color: var(--faint); font-size: 14px; margin: 6px 0 20px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.6; }
+th, td { padding: 8px 12px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+th { background: var(--surface); color: var(--muted); font-weight: 500; font-size: 14px; white-space: nowrap; }
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: var(--hover); }
+td.num { text-align: right; font-family: var(--mono); font-size: 14px; white-space: nowrap; }
+th.num { text-align: right; }
+td.rank { color: var(--muted); white-space: nowrap; }
+td.name { white-space: nowrap; }
+td.lang, td.days { white-space: nowrap; color: var(--muted); }
+td.days.short { color: var(--b); }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-left: 6px; vertical-align: middle; }
+.desc { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; color: var(--muted); min-width: 240px; }
+.error { padding: 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
+@media (max-width: 640px) {
+  h1 { font-size: 22px; }
+  .chart-box { height: 280px; padding: 8px; }
+  table { min-width: 760px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>GitHub 星星數觀察站</h1>
+  <p class="updated" id="updated"></p>
+  <div id="content">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="month" aria-selected="true">月排行（30 天）</button>
+      <button type="button" role="tab" data-tab="week" aria-selected="false">週排行（7 天）</button>
+    </div>
+    <div class="chart-box"><canvas id="chart"></canvas></div>
+    <p class="hint">點表格的一列，可以在圖上加入或移除那個專案</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>名次</th><th>專案</th><th>說明</th><th>語言</th><th class="num">增加數</th><th class="num">目前總數</th><th>資料天數</th></tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const fmt = (n) => n.toLocaleString("en-US");
+const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const lineColor = (i) => css(`--line-${(i % 10) + 1}`);
+
+let data = null;
+let chart = null;
+let current = "month";
+const visible = {}; // tab -> Set of visible item indexes
+
+function renderChart() {
+  const ranking = data[current];
+  const shown = visible[current];
+  const datasets = ranking.items.map((item, i) => ({
+    label: item.fullName,
+    data: item.series,
+    borderColor: lineColor(i),
+    backgroundColor: lineColor(i),
+    borderWidth: 2,
+    pointRadius: 0,
+    pointHoverRadius: 4,
+    tension: 0.2,
+    spanGaps: true,
+    hidden: !shown.has(i),
+  }));
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("chart"), {
+    type: "line",
+    data: { labels: ranking.dates, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: css("--surface"),
+          titleColor: css("--ink"),
+          bodyColor: css("--ink"),
+          borderColor: css("--border"),
+          borderWidth: 1,
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}  +${fmt(ctx.parsed.y)}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { color: css("--muted"), maxRotation: 0, autoSkip: true, maxTicksLimit: 8 },
+          grid: { color: css("--border") },
+          border: { color: css("--border") },
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: css("--muted"), callback: (v) => fmt(v) },
+          grid: { color: css("--border") },
+          border: { color: css("--border") },
+        },
+      },
+    },
+  });
+}
+
+function renderTable() {
+  const ranking = data[current];
+  const shown = visible[current];
+  const tbody = document.getElementById("rows");
+  tbody.innerHTML = "";
+  ranking.items.forEach((item, i) => {
+    const tr = document.createElement("tr");
+    tr.tabIndex = 0;
+
+    const rank = document.createElement("td");
+    rank.className = "rank";
+    rank.textContent = i + 1;
+    if (shown.has(i)) {
+      const dot = document.createElement("span");
+      dot.className = "dot";
+      dot.style.background = lineColor(i);
+      rank.append(dot);
+    }
+
+    const name = document.createElement("td");
+    name.className = "name";
+    const a = document.createElement("a");
+    a.href = item.url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = item.fullName;
+    a.addEventListener("click", (e) => e.stopPropagation());
+    name.append(a);
+
+    const desc = document.createElement("td");
+    const descText = document.createElement("div");
+    descText.className = "desc";
+    descText.textContent = item.description || "";
+    descText.title = item.description || "";
+    desc.append(descText);
+
+    const lang = document.createElement("td");
+    lang.className = "lang";
+    lang.textContent = item.language || "";
+
+    const gain = document.createElement("td");
+    gain.className = "num";
+    gain.textContent = `+${fmt(item.gain)}`;
+
+    const stars = document.createElement("td");
+    stars.className = "num";
+    stars.textContent = fmt(item.stars);
+
+    const days = document.createElement("td");
+    days.className = "days";
+    if (item.days < ranking.windowDays) {
+      days.classList.add("short");
+      days.textContent = `只有 ${item.days} 天資料`;
+    } else {
+      days.textContent = `${item.days} 天`;
+    }
+
+    tr.append(rank, name, desc, lang, gain, stars, days);
+    const toggle = () => {
+      if (shown.has(i)) shown.delete(i);
+      else shown.add(i);
+      chart.setDatasetVisibility(i, shown.has(i));
+      chart.update();
+      renderTable();
+    };
+    tr.addEventListener("click", toggle);
+    tr.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        toggle();
+        tbody.children[i].focus();
+      }
+    });
+    tbody.append(tr);
+  });
+}
+
+function showTab(tab) {
+  current = tab;
+  document.querySelectorAll(".tabs button").forEach((b) => {
+    b.setAttribute("aria-selected", String(b.dataset.tab === tab));
+  });
+  renderChart();
+  renderTable();
+}
+
+fetch("data/rankings.json")
+  .then((res) => {
+    if (!res.ok) throw new Error(res.status);
+    return res.json();
+  })
+  .then((json) => {
+    data = json;
+    for (const tab of ["month", "week"]) {
+      visible[tab] = new Set(data[tab].items.slice(0, 5).map((_, i) => i));
+    }
+    document.getElementById("updated").textContent = `資料更新：${data.updatedAt}`;
+    document.querySelectorAll(".tabs button").forEach((b) => {
+      b.addEventListener("click", () => showTab(b.dataset.tab));
+    });
+    showTab("month");
+  })
+  .catch(() => {
+    document.getElementById("content").innerHTML = '<p class="error">讀不到資料（data/rankings.json）</p>';
+  });
+</script>
+</body>
+</html>
