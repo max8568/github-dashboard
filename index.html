@@ -166,14 +166,103 @@ function renderChart(ranking, items) {
     spanGaps: true,
     hidden: !visible.has(i),
   }));
+  const labelFont = `12px ${css("--font")}`;
+  const rightGap = 8;
+  const squareSize = 8;
+  const textGap = 6;
+  const labelSpacing = 14;
+  let lineEndLabels = [];
+  const lineEndLabelsPlugin = {
+    id: "lineEndLabels",
+    beforeLayout(chart) {
+      const { ctx } = chart;
+      const narrow = window.innerWidth < 600;
+      let widest = 0;
+      lineEndLabels = [];
+
+      ctx.save();
+      ctx.font = labelFont;
+      chart.data.datasets.forEach((dataset, datasetIndex) => {
+        if (!chart.isDatasetVisible(datasetIndex)) return;
+        let pointIndex = dataset.data.length - 1;
+        while (pointIndex >= 0 && dataset.data[pointIndex] == null) pointIndex--;
+        if (pointIndex < 0) return;
+
+        let text = dataset.label;
+        if (narrow) {
+          text = text.slice(text.lastIndexOf("/") + 1);
+          if (text.length > 14) text = `${text.slice(0, 14)}…`;
+        }
+        widest = Math.max(widest, ctx.measureText(text).width);
+        lineEndLabels.push({ datasetIndex, pointIndex, text, color: dataset.borderColor });
+      });
+      ctx.restore();
+
+      chart.options.layout.padding.right = lineEndLabels.length
+        ? widest + rightGap + squareSize + textGap + 4
+        : 0;
+    },
+    afterLayout(chart) {
+      const box = chart.canvas.parentElement;
+      if (lineEndLabels.length < 2) {
+        box.style.minHeight = "";
+        return;
+      }
+
+      const { top, bottom } = chart.chartArea;
+      const { paddingTop, paddingBottom, borderTopWidth, borderBottomWidth } = getComputedStyle(box);
+      const boxInsets = [paddingTop, paddingBottom, borderTopWidth, borderBottomWidth]
+        .reduce((sum, value) => sum + parseFloat(value), 0);
+      const requiredHeight = (lineEndLabels.length - 1) * labelSpacing;
+      box.style.minHeight = `${Math.ceil(requiredHeight + chart.height - (bottom - top) + boxInsets)}px`;
+    },
+    afterDatasetsDraw(chart) {
+      const labels = lineEndLabels.map((label) => ({
+        ...label,
+        y: chart.getDatasetMeta(label.datasetIndex).data[label.pointIndex]?.y,
+      })).filter(({ y }) => Number.isFinite(y)).sort((a, b) => a.y - b.y);
+      if (!labels.length) return;
+
+      const { ctx, chartArea: { top, bottom, right } } = chart;
+      const x = right + rightGap;
+      // Fit the labels during the responsive resize when the chart box needs to grow.
+      const spacing = labels.length > 1
+        ? Math.min(labelSpacing, (bottom - top) / (labels.length - 1))
+        : labelSpacing;
+      let previousY = top - spacing;
+      for (const label of labels) {
+        label.y = Math.max(label.y, previousY + spacing);
+        previousY = label.y;
+      }
+      const shift = Math.min(Math.max(0, previousY - bottom), labels[0].y - top);
+
+      ctx.save();
+      ctx.font = labelFont;
+      ctx.textAlign = "left";
+      ctx.textBaseline = "middle";
+      const muted = css("--muted");
+      labels.forEach((label, i) => {
+        // Keep room for the labels below when the first label reaches the top.
+        const maxY = bottom - (labels.length - 1 - i) * spacing;
+        const y = Math.min(label.y - shift, maxY);
+        ctx.fillStyle = label.color;
+        ctx.fillRect(x, y - squareSize / 2, squareSize, squareSize);
+        ctx.fillStyle = muted;
+        ctx.fillText(label.text, x + squareSize + textGap, y);
+      });
+      ctx.restore();
+    },
+  };
   if (chart) chart.destroy();
   chart = new Chart(document.getElementById("chart"), {
     type: "line",
     data: { labels: ranking.dates, datasets },
+    plugins: [lineEndLabelsPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
+      layout: { padding: { right: 0 } },
       interaction: { mode: "index", intersect: false },
       plugins: {
         legend: { display: false },
@@ -190,7 +279,11 @@ function renderChart(ranking, items) {
       },
       scales: {
         x: {
-          ticks: { color: css("--muted"), maxRotation: 0, autoSkip: true, maxTicksLimit: 8 },
+          ticks: { color: css("--muted"), maxRotation: 0, autoSkip: true, maxTicksLimit: window.innerWidth < 600 ? 4 : 8,
+            callback(value) {
+              const label = this.getLabelForValue(value);
+              return window.innerWidth < 600 ? label.slice(5) : label;
+            } },
           grid: { color: css("--border") },
           border: { color: css("--border") },
         },
