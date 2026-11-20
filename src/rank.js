@@ -7,7 +7,7 @@ function buildWindow(history, repos, today, windowDays, limit) {
   const dates = [];
   for (let i = 0; i <= windowDays; i++) dates.push(addDays(start, i));
 
-  const items = [];
+  const eligible = [];
   for (const [fullName, byDate] of Object.entries(history)) {
     if (byDate[today] === undefined) continue;
     const known = Object.keys(byDate).sort();
@@ -15,7 +15,7 @@ function buildWindow(history, repos, today, windowDays, limit) {
     const base = onOrBefore.length ? onOrBefore[onOrBefore.length - 1] : known[0];
     const baseCount = byDate[base];
     const repo = repos[fullName] || {};
-    items.push({
+    eligible.push({
       fullName,
       url: repo.url || `https://github.com/${fullName}`,
       description: repo.description || '',
@@ -26,8 +26,9 @@ function buildWindow(history, repos, today, windowDays, limit) {
       series: dates.map((d) => (byDate[d] !== undefined && d >= base ? byDate[d] - baseCount : null)),
     });
   }
-  items.sort((a, b) => b.gain - a.gain || b.stars - a.stars);
-  return { windowDays, dates, items: items.slice(0, limit) };
+  const items = [...eligible].sort((a, b) => b.gain - a.gain || b.stars - a.stars).slice(0, limit);
+  const itemsByStars = [...eligible].sort((a, b) => b.stars - a.stars || b.gain - a.gain).slice(0, limit);
+  return { windowDays, dates, items, itemsByStars };
 }
 
 export function computeRankings(history, repos, today, limit = 20) {

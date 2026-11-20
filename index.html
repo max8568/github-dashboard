@@ -100,6 +100,7 @@ tbody tr { cursor: pointer; }
 tbody tr:hover { background: var(--hover); }
 td.num { text-align: right; font-family: var(--mono); font-size: 14px; white-space: nowrap; }
 th.num { text-align: right; }
+th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
 td.rank { color: var(--muted); white-space: nowrap; }
 td.name { white-space: nowrap; }
 td.lang, td.days { white-space: nowrap; color: var(--muted); }
@@ -128,7 +129,12 @@ td.days.short { color: var(--b); }
     <div class="table-wrap">
       <table>
         <thead>
-          <tr><th>名次</th><th>專案</th><th>說明</th><th>語言</th><th class="num">增加數</th><th class="num">目前總數</th><th>資料天數</th></tr>
+          <tr>
+            <th>名次</th><th>專案</th><th>說明</th><th>語言</th>
+            <th class="num" aria-sort="descending"><button type="button" data-sort="items">增加數<span aria-hidden="true"> ▼</span></button></th>
+            <th class="num"><button type="button" data-sort="itemsByStars">目前總數<span aria-hidden="true" hidden> ▼</span></button></th>
+            <th>資料天數</th>
+          </tr>
         </thead>
         <tbody id="rows"></tbody>
       </table>
@@ -144,12 +150,11 @@ const lineColor = (i) => css(`--line-${(i % 10) + 1}`);
 let data = null;
 let chart = null;
 let current = "month";
-const visible = {}; // tab -> Set of visible item indexes
+let sort = "items";
+let visible;
 
-function renderChart() {
-  const ranking = data[current];
-  const shown = visible[current];
-  const datasets = ranking.items.map((item, i) => ({
+function renderChart(ranking, items) {
+  const datasets = items.map((item, i) => ({
     label: item.fullName,
     data: item.series,
     borderColor: lineColor(i),
@@ -159,7 +164,7 @@ function renderChart() {
     pointHoverRadius: 4,
     tension: 0.2,
     spanGaps: true,
-    hidden: !shown.has(i),
+    hidden: !visible.has(i),
   }));
   if (chart) chart.destroy();
   chart = new Chart(document.getElementById("chart"), {
@@ -200,12 +205,11 @@ function renderChart() {
   });
 }
 
-function renderTable() {
-  const ranking = data[current];
-  const shown = visible[current];
+function renderTable(ranking, items) {
+  const shown = visible;
   const tbody = document.getElementById("rows");
   tbody.innerHTML = "";
-  ranking.items.forEach((item, i) => {
+  items.forEach((item, i) => {
     const tr = document.createElement("tr");
     tr.tabIndex = 0;
 
@@ -263,7 +267,7 @@ function renderTable() {
       else shown.add(i);
       chart.setDatasetVisibility(i, shown.has(i));
       chart.update();
-      renderTable();
+      renderTable(ranking, items);
     };
     tr.addEventListener("click", toggle);
     tr.addEventListener("keydown", (e) => {
@@ -278,13 +282,20 @@ function renderTable() {
   });
 }
 
+function renderRanking() {
+  const ranking = data[current];
+  const items = ranking[sort];
+  visible = new Set(items.slice(0, 5).map((_, i) => i));
+  renderChart(ranking, items);
+  renderTable(ranking, items);
+}
+
 function showTab(tab) {
   current = tab;
   document.querySelectorAll(".tabs button").forEach((b) => {
     b.setAttribute("aria-selected", String(b.dataset.tab === tab));
   });
-  renderChart();
-  renderTable();
+  renderRanking();
 }
 
 fetch("data/rankings.json")
@@ -294,12 +305,26 @@ fetch("data/rankings.json")
   })
   .then((json) => {
     data = json;
-    for (const tab of ["month", "week"]) {
-      visible[tab] = new Set(data[tab].items.slice(0, 5).map((_, i) => i));
-    }
     document.getElementById("updated").textContent = `資料更新：${data.updatedAt}`;
     document.querySelectorAll(".tabs button").forEach((b) => {
-      b.addEventListener("click", () => showTab(b.dataset.tab));
+      b.addEventListener("click", () => {
+        if (b.dataset.tab !== current) showTab(b.dataset.tab);
+      });
+    });
+    const sortButtons = document.querySelectorAll("th button[data-sort]");
+    sortButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        if (button.dataset.sort === sort) return;
+        sort = button.dataset.sort;
+        sortButtons.forEach((b) => {
+          const active = b === button;
+          const header = b.closest("th");
+          if (active) header.setAttribute("aria-sort", "descending");
+          else header.removeAttribute("aria-sort");
+          b.querySelector("span").hidden = !active;
+        });
+        renderRanking();
+      });
     });
     showTab("month");
   })

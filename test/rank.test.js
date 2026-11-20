@@ -73,3 +73,22 @@ test('limit 20 sorted by gain desc, ties by stars', () => {
   const t = { 'a/a': { [day(-30)]: 0, [TODAY]: 5 }, 'b/b': { [day(-30)]: 10, [TODAY]: 15 } };
   assert.equal(computeRankings(t, {}, TODAY).month.items[0].fullName, 'b/b');
 });
+
+test('limit 20 by stars across all eligible repos, ties by gain', () => {
+  const h = { 'big/old': { [day(-30)]: 1000, [TODAY]: 1000 } };
+  for (let i = 1; i < 25; i++) {
+    const stars = i === 23 ? 124 : 100 + i;
+    h[`o/r${i}`] = { [day(-30)]: stars - i, [TODAY]: stars };
+  }
+
+  const { month, week } = computeRankings(h, {}, TODAY);
+  for (const { items, itemsByStars } of [month, week]) {
+    assert.equal(itemsByStars.length, 20);
+    assert.equal(itemsByStars[0].fullName, 'big/old');
+    for (let i = 1; i < itemsByStars.length; i++) {
+      assert.ok(itemsByStars[i - 1].stars >= itemsByStars[i].stars);
+    }
+    assert.ok(!items.some((item) => item.fullName === 'big/old'));
+    assert.deepEqual(itemsByStars.slice(1, 3).map((item) => item.fullName), ['o/r24', 'o/r23']);
+  }
+});
