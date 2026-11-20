@@ -277,6 +277,8 @@ function renderChart(ranking, items) {
           bodySpacing: 6,
           titleMarginBottom: 8,
           boxPadding: 4,
+          // Days before a repo existed are reconstructed as 0 stars; leave them out.
+          filter: (item) => item.parsed.y !== 0,
           callbacks: {
             label: (ctx) => {
               const prev = ctx.dataIndex > 0 ? ctx.dataset.data[ctx.dataIndex - 1] : null;
