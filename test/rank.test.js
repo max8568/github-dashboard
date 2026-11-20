@@ -21,8 +21,8 @@ test('full 31 days at +10/day', () => {
   assert.equal(m.dates[30], TODAY);
   assert.equal(m.items[0].gain, 300);
   assert.equal(m.items[0].days, 30);
-  assert.equal(m.items[0].series[0], 0);
-  assert.equal(m.items[0].series[30], 300);
+  assert.equal(m.items[0].series[0], 1000);
+  assert.equal(m.items[0].series[30], 1300);
   assert.equal(m.items[0].url, 'https://github.com/a/a');
   assert.equal(r.week.items[0].gain, 70);
   assert.equal(r.week.items[0].days, 7);
@@ -35,7 +35,7 @@ test('gap: base is latest date on or before window start', () => {
   assert.equal(m.items[0].days, 32);
   assert.equal(m.items[0].gain, 100);
   assert.equal(m.items[0].series[0], null);
-  assert.equal(m.items[0].series[1], 30);
+  assert.equal(m.items[0].series[1], 130);
 });
 
 test('only today entry', () => {
@@ -43,7 +43,7 @@ test('only today entry', () => {
   const it = computeRankings(h, repos, TODAY).month.items[0];
   assert.equal(it.gain, 0);
   assert.equal(it.days, 0);
-  assert.equal(it.series[30], 0);
+  assert.equal(it.series[30], 500);
   assert.ok(it.series.slice(0, 30).every((v) => v === null));
 });
 

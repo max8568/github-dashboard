@@ -23,7 +23,7 @@ function buildWindow(history, repos, today, windowDays, limit) {
       stars: repo.stars !== undefined ? repo.stars : byDate[today],
       gain: byDate[today] - baseCount,
       days: Math.round((toMs(today) - toMs(base)) / DAY_MS),
-      series: dates.map((d) => (byDate[d] !== undefined && d >= base ? byDate[d] - baseCount : null)),
+      series: dates.map((d) => (byDate[d] !== undefined && d >= base ? byDate[d] : null)),
     });
   }
   const items = [...eligible].sort((a, b) => b.gain - a.gain || b.stars - a.stars).slice(0, limit);

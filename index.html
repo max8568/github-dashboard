@@ -274,7 +274,7 @@ function renderChart(ranking, items) {
           borderColor: css("--border"),
           borderWidth: 1,
           callbacks: {
-            label: (ctx) => `${ctx.dataset.label}  +${fmt(ctx.parsed.y)}`,
+            label: (ctx) => `${ctx.dataset.label}  ${fmt(ctx.parsed.y)}`,
           },
         },
       },
@@ -289,7 +289,6 @@ function renderChart(ranking, items) {
           border: { color: css("--border") },
         },
         y: {
-          beginAtZero: true,
           ticks: { color: css("--muted"), callback: (v) => fmt(v) },
           grid: { color: css("--border") },
           border: { color: css("--border") },
