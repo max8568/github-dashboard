@@ -146,6 +146,7 @@ td.days.short { color: var(--b); }
 const fmt = (n) => n.toLocaleString("en-US");
 const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 const lineColor = (i) => css(`--line-${(i % 10) + 1}`);
+Chart.defaults.font.family = css("--font");
 
 let data = null;
 let chart = null;
@@ -419,7 +420,8 @@ fetch("data/rankings.json")
         renderRanking();
       });
     });
-    showTab("month");
+    // Canvas text only uses a web font once it has loaded.
+    return document.fonts.ready.then(() => showTab("month"));
   })
   .catch(() => {
     document.getElementById("content").innerHTML = '<p class="error">讀不到資料（data/rankings.json）</p>';
