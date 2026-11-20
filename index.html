@@ -278,7 +278,7 @@ function renderChart(ranking, items) {
               const prev = ctx.dataIndex > 0 ? ctx.dataset.data[ctx.dataIndex - 1] : null;
               if (prev == null) return `${ctx.dataset.label}  ${fmt(ctx.parsed.y)}`;
               const diff = ctx.parsed.y - prev;
-              return `${ctx.dataset.label}  ${fmt(ctx.parsed.y)}（比前一天 ${diff >= 0 ? "+" : ""}${fmt(diff)}）`;
+              return `${ctx.dataset.label}  ${fmt(ctx.parsed.y)} (${diff >= 0 ? "+" : ""}${fmt(diff)})`;
             },
           },
         },
