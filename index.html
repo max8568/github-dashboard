@@ -103,8 +103,7 @@ th.num { text-align: right; }
 th button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
 td.rank { color: var(--muted); white-space: nowrap; }
 td.name { white-space: nowrap; }
-td.lang, td.days { white-space: nowrap; color: var(--muted); }
-td.days.short { color: var(--b); }
+td.lang { white-space: nowrap; color: var(--muted); }
 .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-left: 6px; vertical-align: middle; }
 .desc { color: var(--muted); min-width: 240px; }
 .error { padding: 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); }
@@ -132,9 +131,7 @@ td.days.short { color: var(--b); }
           <tr>
             <th>名次</th><th>專案</th><th>說明</th><th>語言</th>
             <th class="num" aria-sort="descending"><button type="button" data-sort="items">增加數<span aria-hidden="true"> ▼</span></button></th>
-            <th class="num"><button type="button" data-sort="itemsByStars">目前總數<span aria-hidden="true" hidden> ▼</span></button></th>
-            <th>資料天數</th>
-          </tr>
+            <th class="num"><button type="button" data-sort="itemsByStars">目前總數<span aria-hidden="true" hidden> ▼</span></button></th>          </tr>
         </thead>
         <tbody id="rows"></tbody>
       </table>
@@ -356,16 +353,7 @@ function renderTable(ranking, items) {
     stars.className = "num";
     stars.textContent = fmt(item.stars);
 
-    const days = document.createElement("td");
-    days.className = "days";
-    if (item.days < ranking.windowDays) {
-      days.classList.add("short");
-      days.textContent = `只有 ${item.days} 天資料`;
-    } else {
-      days.textContent = `${item.days} 天`;
-    }
-
-    tr.append(rank, name, desc, lang, gain, stars, days);
+    tr.append(rank, name, desc, lang, gain, stars);
     const toggle = () => {
       if (shown.has(i)) shown.delete(i);
       else shown.add(i);
