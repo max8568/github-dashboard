@@ -16,8 +16,9 @@ export function reconstructDaily(total, dailyNew, today, days = 30) {
   const out = {};
   for (let i = days; i >= 0; i--) {
     const d = dateOf(Date.parse(today) - i * DAY_MS);
+    // Start-of-day count (matches the 00:30 UTC snapshot): subtract stars from day d onward.
     let later = 0;
-    for (const [x, n] of Object.entries(dailyNew)) if (x > d && x <= today) later += n;
+    for (const [x, n] of Object.entries(dailyNew)) if (x >= d && x <= today) later += n;
     out[d] = total - later;
   }
   return out;

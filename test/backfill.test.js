@@ -2,10 +2,10 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { reconstructDaily, dailyNewStars, nextToBackfill } from "../src/backfill.js";
 
-test("reconstructDaily subtracts later stars from the total", () => {
+test("reconstructDaily gives the start-of-day count (total minus stars from that day on)", () => {
   assert.deepEqual(
     reconstructDaily(100, { "2026-11-19": 2, "2026-11-20": 1 }, "2026-11-20", 2),
-    { "2026-11-18": 97, "2026-11-19": 99, "2026-11-20": 100 },
+    { "2026-11-18": 97, "2026-11-19": 97, "2026-11-20": 99 },
   );
 });
 

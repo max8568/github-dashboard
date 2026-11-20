@@ -242,7 +242,7 @@ function renderTable() {
 
     const gain = document.createElement("td");
     gain.className = "num";
-    gain.textContent = `+${fmt(item.gain)}`;
+    gain.textContent = `${item.gain >= 0 ? "+" : ""}${fmt(item.gain)}`;
 
     const stars = document.createElement("td");
     stars.className = "num";

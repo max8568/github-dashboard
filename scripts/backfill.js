@@ -56,7 +56,20 @@ for (const name of nextToBackfill(watchlist)) {
 
 writeJson("data/watchlist.json", watchlist);
 writeJson("data/history.json", history);
-writeJson("data/rankings.json", computeRankings(history, repos, today));
+if (done + skipped > 0) {
+  // Rank at the date of the existing rankings (daily has not yet written today's counts).
+  let rankDate;
+  try {
+    rankDate = readJson("data/rankings.json").updatedAt;
+  } catch {}
+  if (!rankDate) {
+    rankDate = Object.values(history)
+      .flatMap((byDate) => Object.keys(byDate))
+      .sort()
+      .pop();
+  }
+  writeJson("data/rankings.json", computeRankings(history, repos, rankDate));
+}
 
 const pending = nextToBackfill(watchlist).length;
 console.log(`done ${done}, skipped ${skipped}, still pending ${pending}, rate remaining ${rate}`);
