@@ -277,6 +277,8 @@ function renderChart(ranking, items) {
           boxPadding: 4,
           // Days before a repo existed are reconstructed as 0 stars; leave them out.
           filter: (item) => item.parsed.y !== 0,
+          // Same top-to-bottom order as the lines at that day.
+          itemSort: (a, b) => b.parsed.y - a.parsed.y,
           callbacks: {
             label: (ctx) => {
               const prev = ctx.dataIndex > 0 ? ctx.dataset.data[ctx.dataIndex - 1] : null;
