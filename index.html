@@ -161,8 +161,9 @@ function renderChart(ranking, items) {
     borderColor: lineColor(i),
     backgroundColor: lineColor(i),
     borderWidth: 2,
-    pointRadius: 0,
-    pointHoverRadius: 4,
+    // Week view has only 8 days, so a dot per day stays readable; month view would be cluttered.
+    pointRadius: ranking.windowDays === 7 ? 3 : 0,
+    pointHoverRadius: 5,
     tension: 0.2,
     spanGaps: true,
     hidden: !visible.has(i),
