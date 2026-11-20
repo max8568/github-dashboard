@@ -47,6 +47,16 @@ test('only today entry', () => {
   assert.ok(it.series.slice(0, 30).every((v) => v === null));
 });
 
+test('leading zero days (repo not created yet) become null in series', () => {
+  const h = { 'a/a': {} };
+  for (let i = -30; i <= 0; i++) h['a/a'][day(i)] = i < -20 ? 0 : (i + 21) * 10;
+  const it = computeRankings(h, repos, TODAY).month.items[0];
+  assert.ok(it.series.slice(0, 10).every((v) => v === null));
+  assert.equal(it.series[10], 10);
+  assert.equal(it.series[30], 210);
+  assert.equal(it.gain, 210);
+});
+
 test('repo without today entry is left out', () => {
   const h = { 'a/a': { [day(-1)]: 5 } };
   const r = computeRankings(h, repos, TODAY);
