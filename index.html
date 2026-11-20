@@ -273,6 +273,10 @@ function renderChart(ranking, items) {
           bodyColor: css("--ink"),
           borderColor: css("--border"),
           borderWidth: 1,
+          padding: 12,
+          bodySpacing: 6,
+          titleMarginBottom: 8,
+          boxPadding: 4,
           callbacks: {
             label: (ctx) => {
               const prev = ctx.dataIndex > 0 ? ctx.dataset.data[ctx.dataIndex - 1] : null;
