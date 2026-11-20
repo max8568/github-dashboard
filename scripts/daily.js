@@ -2,6 +2,7 @@ import { addCandidates, pruneWatchlist, recordCounts, readJson, writeJson } from
 import { computeRankings } from "../src/rank.js";
 import { fetchTrending, searchNewRepos } from "../src/sources.js";
 import { fetchRepoInfo } from "../src/github.js";
+import { withTranslations } from "../src/translate.js";
 
 const token = process.env.GITHUB_TOKEN;
 if (!token) {
@@ -15,6 +16,12 @@ let warnings = 0;
 let watchlist = readJson("data/watchlist.json");
 let history = readJson("data/history.json");
 let repos = readJson("data/repos.json");
+let translations = {};
+try {
+  translations = readJson("data/translations.json");
+} catch (err) {
+  if (err.code !== "ENOENT") throw err;
+}
 
 const sources = [
   ["trending monthly", 0, () => fetchTrending("monthly")],
@@ -50,6 +57,6 @@ repos = Object.fromEntries(Object.entries(repos).filter(([name]) => name in watc
 writeJson("data/watchlist.json", watchlist);
 writeJson("data/history.json", history);
 writeJson("data/repos.json", repos);
-writeJson("data/rankings.json", computeRankings(history, repos, today));
+writeJson("data/rankings.json", computeRankings(history, withTranslations(repos, translations), today));
 
 console.log(`watched ${Object.keys(watchlist).length}, recorded ${Object.keys(counts).length}, warnings ${warnings}`);

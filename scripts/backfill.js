@@ -1,6 +1,7 @@
 import { mergeBackfill, readJson, writeJson } from "../src/store.js";
 import { computeRankings } from "../src/rank.js";
 import { reconstructDaily, dailyNewStars, nextToBackfill } from "../src/backfill.js";
+import { withTranslations } from "../src/translate.js";
 
 const token = process.env.GITHUB_TOKEN;
 if (!token) {
@@ -68,7 +69,13 @@ if (done + skipped > 0) {
       .sort()
       .pop();
   }
-  writeJson("data/rankings.json", computeRankings(history, repos, rankDate));
+  let translations = {};
+  try {
+    translations = readJson("data/translations.json");
+  } catch (err) {
+    if (err.code !== "ENOENT") throw err;
+  }
+  writeJson("data/rankings.json", computeRankings(history, withTranslations(repos, translations), rankDate));
 }
 
 const pending = nextToBackfill(watchlist).length;
