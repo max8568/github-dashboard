@@ -1,11 +1,24 @@
 const DAY_MS = 86400000;
 
-export function reconstructDaily(total, starredAt, today, days = 30) {
-  const starDates = starredAt.map((s) => s.slice(0, 10));
+const dateOf = (ms) => new Date(ms).toISOString().slice(0, 10);
+
+export function dailyNewStars(weeks) {
+  const out = {};
+  for (const { week, days } of weeks) {
+    days.forEach((n, i) => {
+      out[dateOf(week * 1000 + i * DAY_MS)] = n;
+    });
+  }
+  return out;
+}
+
+export function reconstructDaily(total, dailyNew, today, days = 30) {
   const out = {};
   for (let i = days; i >= 0; i--) {
-    const d = new Date(Date.parse(today) - i * DAY_MS).toISOString().slice(0, 10);
-    out[d] = total - starDates.filter((s) => s > d).length;
+    const d = dateOf(Date.parse(today) - i * DAY_MS);
+    let later = 0;
+    for (const [x, n] of Object.entries(dailyNew)) if (x > d && x <= today) later += n;
+    out[d] = total - later;
   }
   return out;
 }

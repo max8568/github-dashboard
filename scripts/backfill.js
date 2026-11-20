@@ -1,6 +1,6 @@
 import { mergeBackfill, readJson, writeJson } from "../src/store.js";
 import { computeRankings } from "../src/rank.js";
-import { reconstructDaily, nextToBackfill } from "../src/backfill.js";
+import { reconstructDaily, dailyNewStars, nextToBackfill } from "../src/backfill.js";
 
 const token = process.env.GITHUB_TOKEN;
 if (!token) {
@@ -9,13 +9,11 @@ if (!token) {
 }
 
 const today = new Date().toISOString().slice(0, 10);
-const cutoff = new Date(Date.parse(today) - 30 * 86400000).toISOString().slice(0, 10);
-const MAX_TOTAL = 40000;
 const MIN_RATE = 100;
 
 const headers = {
   Authorization: `Bearer ${token}`,
-  Accept: "application/vnd.github.star+json",
+  Accept: "application/vnd.github+json",
   "User-Agent": "github-dashboard",
 };
 
@@ -34,45 +32,26 @@ const repos = readJson("data/repos.json");
 let done = 0;
 let skipped = 0;
 
-outer: for (const name of nextToBackfill(watchlist)) {
+for (const name of nextToBackfill(watchlist)) {
   const infoRes = await get(`https://api.github.com/repos/${name}`);
   if (infoRes.status === 404) {
     watchlist[name] = { ...watchlist[name], backfill: "skipped" };
     skipped++;
   } else if (!infoRes.ok) {
     console.warn(`warning: ${name} repo info returned ${infoRes.status}`);
-  } else {
+  } else if (rate >= MIN_RATE) {
     const total = (await infoRes.json()).stargazers_count;
-    if (total > MAX_TOTAL) {
-      watchlist[name] = { ...watchlist[name], backfill: "skipped" };
-      skipped++;
+    const res = await get(`https://api.github.com/repos/${name}/stargazers/history`);
+    if (res.status !== 200) {
+      console.warn(`warning: ${name} stargazers/history returned ${res.status}`);
     } else {
-      const starredAt = [];
-      let ok = true;
-      for (let page = Math.max(1, Math.ceil(total / 100)); page >= 1; page--) {
-        const res = await get(`https://api.github.com/repos/${name}/stargazers?per_page=100&page=${page}`);
-        if (!res.ok) {
-          console.warn(`warning: ${name} stargazers page ${page} returned ${res.status}`);
-          ok = false;
-          break;
-        }
-        const items = await res.json();
-        for (const item of items) starredAt.push(item.starred_at);
-        const oldest = items.length ? items[0].starred_at.slice(0, 10) : null;
-        if (rate < MIN_RATE) {
-          ok = false;
-          break;
-        }
-        if (oldest && oldest < cutoff) break;
-      }
-      if (ok) {
-        history = mergeBackfill(history, name, reconstructDaily(total, starredAt, today));
-        watchlist[name] = { ...watchlist[name], backfill: "done" };
-        done++;
-      }
+      const weeks = await res.json();
+      history = mergeBackfill(history, name, reconstructDaily(total, dailyNewStars(weeks), today));
+      watchlist[name] = { ...watchlist[name], backfill: "done" };
+      done++;
     }
   }
-  if (rate < MIN_RATE) break outer;
+  if (rate < MIN_RATE) break;
 }
 
 writeJson("data/watchlist.json", watchlist);
