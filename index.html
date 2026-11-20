@@ -342,7 +342,6 @@ function renderTable(ranking, items) {
     const descText = document.createElement("div");
     descText.className = "desc";
     descText.textContent = item.description || "";
-    descText.title = item.description || "";
     desc.append(descText);
 
     const lang = document.createElement("td");
