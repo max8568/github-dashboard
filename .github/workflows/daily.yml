@@ -1,0 +1,31 @@
+name: daily
+
+on:
+  schedule:
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-write
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Run daily
+        run: node scripts/daily.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898569+github-actions[bot]@users.noreply.github.com"
+          git diff --quiet data || (git add data && git commit -m "data: daily $(date -u +%F)" && git pull --rebase && git push)
