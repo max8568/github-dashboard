@@ -44,8 +44,8 @@
     "zh": "基於 Shizuku 免 Root 清除國產安卓的 SystemHelper、RegService 等系統預裝隱私資料蒐集模組"
   },
   "FrigadeHQ/yogurt": {
-    "source": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux.",
-    "zh": "私密的 AI 會議筆記，資料只留在你的電腦上。適用於 Mac、Windows 與 Linux 的免費開源 Granola 替代方案。"
+    "source": "Private AI meeting notes that stay on your computer. No meeting bot. Free and open source for Mac, Windows and Linux. An alternative to Granola, Otter and Fireflies.",
+    "zh": "私密的 AI 會議紀錄，只存在你的電腦上。無需會議機器人。免費且開源，支援 Mac、Windows 與 Linux。可替代 Granola、Otter 與 Fireflies。"
   },
   "GoogleChrome/modern-web-guidance-src": {
     "source": "Keep your coding agent up to date with the latest web best practices",
@@ -104,8 +104,8 @@
     "zh": "讓你的命令列代理在背景自行接案、自行追蹤到底；平時不打擾你，遇到拿不定主意的事才發送卡片請你拍板定奪。"
   },
   "Kianuni/Erosion-CN": {
-    "source": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration & MobileGestalt Toolbox (Bilingual EN/ZH)",
-    "zh": "iOS / iPadOS 系統設定與 MobileGestalt 研究工具箱（中英雙語 · 防白蘋果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration & MobileGestalt Toolbox (Bilingual EN/ZH)"
+    "source": "iOS / iPadOS 国行 Apple 智能、eSIM 与 MobileGestalt 系统配置工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence & eSIM Toolbox (EN/ZH)",
+    "zh": "iOS / iPadOS 國行 Apple 智慧、eSIM 與 MobileGestalt 系統設定工具箱（中英雙語 · 防白蘋果安全加固版） | Bootloop-Safe iOS / iPadOS MobileGestalt, Apple Intelligence & eSIM Toolbox (EN/ZH)"
   },
   "Lee-xeo/Claude-Cage": {
     "source": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
@@ -296,8 +296,8 @@
     "zh": "一次撰寫應用程式，即可原生執行於網頁、macOS、iOS 與 Linux，AI Agent 還能在各平台上建置、執行、觀看並測試。"
   },
   "firecrawl/firecrawl": {
-    "source": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
-    "zh": "為你的 Agent 打造更聰明的知識基礎設施。透過單一 API 進行搜尋、爬取，並存取 550 多個資料提供者。"
+    "source": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+    "zh": "讓你的代理更聰明的知識基礎架構。透過單一 API 搜尋、爬取並存取 550 多個資料提供者。"
   },
   "google-labs-code/stitch-skills": {
     "source": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
@@ -538,5 +538,21 @@
   "zortos293/Lichii": {
     "source": "VERY experimental Nintendo Switch 2 emulator",
     "zh": "非常實驗性的 Nintendo Switch 2 模擬器"
+  },
+  "CzzzzzzJ/mdldm-maitian": {
+    "source": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+    "zh": "麥田：自媒體多平台發布中控與資料監控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 資料大螢幕"
+  },
+  "bookwjitchieni1986/blender-ai-mcp-addon": {
+    "source": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+    "zh": "適用於 Blender 的 AI 助理與 MCP 伺服器：視覺化聊天、場景工具、多代理工作流程。支援 ChatGPT/GPT、Claude、Gemini、Ollama、OpenCode。Blender AI 外掛、3D 副駕駛、bpy Python 腳本、MCP 整合。"
+  },
+  "duwqijlk/muse-protocol": {
+    "source": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
+    "zh": "muse.ai 註冊與邀請碼兌換協定研究（純 HTTP Python 實作）"
+  },
+  "imxieyi/Kernarium": {
+    "source": "Run real Linux kernel natively on iOS",
+    "zh": "在 iOS 上原生執行真正的 Linux 核心"
   }
 }

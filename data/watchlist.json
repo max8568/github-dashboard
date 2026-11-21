@@ -1,286 +1,286 @@
 {
   "Nutlope/hallmark": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "cloudflare/security-audit-skill": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "milind-soni/OpenMausBot": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "pingdotgg/t3code": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "anthropics/skills": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "thedotmack/claude-mem": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "Jakeschincariol/instagram-agent-skill": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "backnotprop/plannotator": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "HKUDS/DeepTutor": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "pbakaus/impeccable": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "sherlock-project/sherlock": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "AgriciDaniel/claude-seo": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "google-labs-code/stitch-skills": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "heygen-com/hyperframes": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "elementalsouls/Claude-BugHunter": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "kajisho5/ffmpeg-skill": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "vercel-labs/agent-browser": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 0,
     "backfill": "done"
   },
   "GoogleChrome/modern-web-guidance-src": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "alibaba/open-code-review": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "mvanhorn/last30days-skill": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "ChromeDevTools/chrome-devtools-mcp": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "tradermonty/claude-trading-skills": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "ag-ui-protocol/ag-ui": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "meta/astryx": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "pookjw/HermesEnabler": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "we-promise/sure": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "dream-num/univer": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 1,
     "backfill": "done"
   },
   "obra/superpowers": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "HKUDS/CLI-Anything": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "jingyaogong/minimind": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "cursor/plugins": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "firecrawl/firecrawl": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "nginx/nginx": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "openvinotoolkit/openvino": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "cathrynlavery/diagram-design": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "mjmirza/app-store-compliance": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "Tracer-Cloud/opensre": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "toeverything/AFFiNE": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "XiaoYouChR/Ghost-Downloader-3": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "zhouxiaoka/autoclip": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 2,
     "backfill": "done"
   },
   "storytold/craft-anything": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "ccch1mneyyy/dsh-Go": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "deepseek-ai/dsh-superagent-prototype": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "heydamir/unslop": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "anefzaoui/misterdownloadmanager": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "libracoder/kiri": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "JuneYaooo/rea-video": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Minireel/HGhub": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "janestreet/agent_skills": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "zortos293/Lichii": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "wangzan101/Mika": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "huami1314/GestaltX": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "rddmwmddr/android-ad-cleaner": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "RoutineMiku/apkstart": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "patch-gg/pixelfx": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "unclebob/ub-mode": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "valentderah/totk-pc-recomp": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
@@ -290,147 +290,147 @@
     "backfill": "done"
   },
   "anhao/ai-pose-gallery-zh": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Lee-xeo/Claude-Cage": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "qybaihe/bla": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Eglantine-Community/Eglantine": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "vercel-labs/ui": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "KKKKhazix/agent-autoloop": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "erkamyaman/rust-anything": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "interplains/Zero-Breach-Toolkit": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "haydenschmitty/floorplan": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "designfuchen/word-atlas": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "deepseek-ai/chat-demo": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "BryceYuuu/RUN": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "JustAResearcher/gpu-unlock-ada": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "modelflare-ai/AnyModelBot": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "expo/exact": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "krisgfx9/Wireless-Device-Battery-Monitor": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "tangerineturtle1/NX2navi": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "mromidev/claude-animated-shorts": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "mdiri-ai/SoduWork": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "t3dotgg/tstack": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "ersinkoc/phonebox": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "elvarofficial/teardown": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "benjitaylor/skills": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "JenkinWoo/sheeridVerify": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "jhaizhou-ops/S2Arm": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Verlintas/NOIR": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "shanselman/gputaskman": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "paipiange/nvzhuang": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "govijr/terminal-mac": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
@@ -440,112 +440,112 @@
     "backfill": "done"
   },
   "jamesondh/chimera-vocal-synth": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "sarpstar/cinecode": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "physicsdolphin/nv-uefi-unlocker": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "apex-compute/ANR": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "DenisSergeevitch/ex-ussr-kinship-research": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "caru-ini/stack-diagram": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "FrigadeHQ/yogurt": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Immortal-Protocols/lastbook": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Kianuni/Erosion-CN": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "DIYgod/pinky": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Noniv/abyssal-garden": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Leviidev/Henge": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "D3voz/openjutsu": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "N1nEmAn/sapper-v2": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "gylive/google-ultra": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "wquguru/cicada": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "IainKay/ram-altman": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Motionsites-AI/claude-skill": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "HolyArrs/HolyArrs": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "toyxyz/toyxyz_RGBMocap": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "enesozturk/dimensional-drawing": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Sandflow-ai/sand3d": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
@@ -555,87 +555,87 @@
     "backfill": "done"
   },
   "lexifina/global-law": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "morganlinton/BeautifulRust": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "WoYun520/gif-factory": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "andyhuo520/digital-human-koubo": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "CzJam/gjgjxweb": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "mmdoctor/google-pro-helper": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "s1dashu/quiet-md": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Eynnzerr/TelemetryCleaner": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "ZiChuanLan/agent-purge": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "daveebbelaar/bama": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "NiazMorshed2007/reanimate": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "BookracyFOS/bookracy": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "yjid/kensaku": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "aschmelyun/print-my-profile-pic": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "HybridRobotics/supermimic": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "jacke-pp/open-yoki": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "shirai91/nx2android": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
@@ -645,58 +645,78 @@
     "backfill": "done"
   },
   "ZiChuanLan/freebie-radar": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Hut-hzf/ung220z-tool": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "Arjun-Ingole/hop": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "agentes-chat/agentes-chat": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "simplexai-labs/linger": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "chadyi/StudyOnTV": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "HRuiCcc/RuiC-PoseAtlas": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "anonnerdfrenzy/survival-llm": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "elripalda/RecompLauncher": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "kevinraymond/florilegium": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
   },
   "JosssphZhou/poki": {
-    "lastSeen": "2026-11-20",
+    "lastSeen": "2026-11-21",
     "priority": 3,
     "backfill": "done"
+  },
+  "imxieyi/Kernarium": {
+    "lastSeen": "2026-11-21",
+    "priority": 3,
+    "backfill": "pending"
+  },
+  "bookwjitchieni1986/blender-ai-mcp-addon": {
+    "lastSeen": "2026-11-21",
+    "priority": 3,
+    "backfill": "pending"
+  },
+  "CzzzzzzJ/mdldm-maitian": {
+    "lastSeen": "2026-11-21",
+    "priority": 3,
+    "backfill": "pending"
+  },
+  "duwqijlk/muse-protocol": {
+    "lastSeen": "2026-11-21",
+    "priority": 3,
+    "backfill": "pending"
   }
 }
