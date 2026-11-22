@@ -36,8 +36,8 @@
     "zh": "為 AI 代理（Codex、Claude Code）打造、以證據為優先的族譜技能：涵蓋前蘇聯地區的教會登記簿、民政、軍事、流放與鎮壓紀錄。以你的語言回覆。"
   },
   "Eglantine-Community/Eglantine": {
-    "source": "VERY experimental Nintendo Switch 2 emulator",
-    "zh": "非常實驗性的 Nintendo Switch 2 模擬器"
+    "source": "An experimental Switch 2 Emulator built for Windows, Linux and MacOS.",
+    "zh": "一款為 Windows、Linux 和 macOS 打造的實驗性 Switch 2 模擬器。"
   },
   "Eynnzerr/TelemetryCleaner": {
     "source": "基于 Shizuku 免 Root 清除国产安卓 SystemHelper、RegService 等系统预装隐私数据收集模块",
@@ -68,8 +68,8 @@
     "zh": "一款自架應用程式，用來管理你的節目、電影與音樂。"
   },
   "Hut-hzf/ung220z-tool": {
-    "source": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
-    "zh": "ung220z-tool 是一款針對 UNG220Z（九聯／Unionman 中國移動光貓）的一鍵憑證擷取工具，僅限在你自己的裝置上使用，用於找回遺忘的管理密碼、遷移寬頻設定或進行安全自查。"
+    "source": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+    "zh": "ung220z-tool 是一款針對 UNG220Z 的一鍵憑證提取工具，另含中興/烽火/華為/九聯多廠商適配、韌體指紋辨識，以及依家族分類的故障排除建議，僅限在你自己的裝置上用於找回遺忘的管理密碼、遷移寬頻設定或安全自查。"
   },
   "HybridRobotics/supermimic": {
     "source": "Humanoid whole-body motion tracking with one differentiable world model.",
@@ -384,8 +384,8 @@
     "zh": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。"
   },
   "mjmirza/app-store-compliance": {
-    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-    "zh": "避免常見的 App Store 與 Google Play 上架遭拒。提供開放的實戰手冊與送審前檢查工具，涵蓋 117 種已記錄的遭拒模式及修正方式、隱私清單與 Data safety 檢查、95 個追蹤中的期限（EU AI Act、DSA、COPPA、年齡相關法規），以及供 AI 程式碼代理使用的技能。"
+    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "zh": "避開常見的 App Store 與 Google Play 上架退件原因。提供開放式操作手冊與上架前檢查工具，內含 124 種已記錄的退件模式與修正方式、隱私權清單與 Data safety 檢查、111 項追蹤中的期限（EU AI Act、DSA、COPPA、年齡相關法規），以及供 AI 編碼代理使用的技能。"
   },
   "modelflare-ai/AnyModelBot": {
     "source": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
@@ -476,8 +476,8 @@
     "zh": "Linger 是一款開源個人代理，完全在你的電腦上執行。我們希望透過高效的模型與 harness 協同設計，把強大的本地 AI 帶到日常電腦上，打破大型科技公司對 AI 的掌控，讓每個人都能執行屬於自己的 AI。"
   },
   "sqlpxc/airhand": {
-    "source": "High-performance, low-latency remote desktop QUIC transport · hardware encoding and decoding · up to 120 fps Windows · macOS · Linux · Android · browser",
-    "zh": "高效能、低延遲的遠端桌面 QUIC 傳輸協定 · 硬體編解碼 · 最高 120 fps · Windows · macOS · Linux · Android · 瀏覽器"
+    "source": "High-performance, low-latency remote desktop QUIC transport · hardware encoding and decoding · up to 120 fps Windows · macOS · Linux · Android · iOS · browser",
+    "zh": "高效能、低延遲的遠端桌面 QUIC 傳輸協定 · 硬體編碼與解碼 · Windows 最高 120 fps · macOS · Linux · Android · iOS · 瀏覽器"
   },
   "storytold/craft-anything": {
     "source": "Craft Anything: understand how any software works, and craft your own.",
@@ -554,5 +554,25 @@
   "imxieyi/Kernarium": {
     "source": "Run real Linux kernel natively on iOS",
     "zh": "在 iOS 上原生執行真正的 Linux 核心"
+  },
+  "ItsNotRexed/Leonida": {
+    "source": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+    "zh": "Leonida 是 Grand Theft Auto 6 Xbox 版的原生 PC 重新編譯版本。"
+  },
+  "XinaTian/MROffice": {
+    "source": "MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors. https://mroffice.ai",
+    "zh": "MR Office：開源的文件、試算表、簡報、PDF、手寫及程式碼編輯器。https://mroffice.ai"
+  },
+  "havenicec/google-qr-sms-helper": {
+    "source": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
+    "zh": "Chrome 擴充功能（MV3），透過 iPad Mini 設定檔與 [3,null,4] RPC 備援機制，將 Google 強制要求的 QR Code 驗證切換回標準 6 位數簡訊驗證。"
+  },
+  "iamajmeena/neonclipping": {
+    "source": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+    "zh": "貼上連結，約 2 分鐘即可取得附字幕的 9:16 短影片剪輯。免費、本地執行、開源的剪輯引擎（以音訊為優先、支援 YouTube 字幕、本地 LLM）。"
+  },
+  "sybil-solutions/inference-optimisation-skill": {
+    "source": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+    "zh": "用於在任何硬體與量化格式上逐步優化本地 LLM 服務速度（解碼、推測解碼、預填充、KV、啟動、TTFT）的 Agent 技能"
   }
 }
