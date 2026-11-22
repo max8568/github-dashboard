@@ -1791,6 +1791,25 @@
         ]
       },
       {
+        "fullName": "ItsNotRexed/Leonida",
+        "url": "https://github.com/ItsNotRexed/Leonida",
+        "description": "Leonida 是 Grand Theft Auto 6 Xbox 版的原生 PC 重新編譯版本。",
+        "language": "Python",
+        "stars": 7684,
+        "gain": 7684,
+        "days": 7,
+        "series": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          165,
+          7684
+        ]
+      },
+      {
         "fullName": "erkamyaman/rust-anything",
         "url": "https://github.com/erkamyaman/rust-anything",
         "description": "將整個應用程式以 Rust 重寫，一次一個部分，並在每個步驟對照原始程式所記錄的行為進行驗證。支援以 TypeScript、Python、C、Go、Ruby 與 Java 撰寫的 CLI、HTTP 伺服器與函式庫。",
@@ -2092,25 +2111,6 @@
           197749,
           198173,
           198629
-        ]
-      },
-      {
-        "fullName": "milind-soni/OpenMausBot",
-        "url": "https://github.com/milind-soni/OpenMausBot",
-        "description": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。",
-        "language": "TypeScript",
-        "stars": 26608,
-        "gain": 3774,
-        "days": 7,
-        "series": [
-          22834,
-          23646,
-          24337,
-          24987,
-          25523,
-          25873,
-          26297,
-          26608
         ]
       }
     ],
