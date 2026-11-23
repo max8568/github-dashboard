@@ -228,8 +228,8 @@
     "zh": "Agent 技能：用一句話描述你的技術堆疊，即可獲得附官方標誌的架構圖。"
   },
   "cathrynlavery/diagram-design": {
-    "source": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "zh": "適用於 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 與 Pi 的編輯式圖表設計。45 種圖表類型。獨立 HTML + SVG。無陰影。拒絕 Mermaid 式粗製濫造。"
+    "source": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "zh": "適用於 Claude Code、Codex、GitHub Copilot、Cursor、Factory Droid、Qoder 與 Pi 的編輯式圖表設計。共 52 種圖表類型。獨立的 HTML + SVG。無陰影。拒絕 Mermaid 式的粗製濫造。"
   },
   "ccch1mneyyy/dsh-Go": {
     "source": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
@@ -316,8 +316,8 @@
     "zh": "一個 Claude 技能，可將看起來像 AI 生成的 vibe coding 介面，轉換為經過設計的介面。"
   },
   "heygen-com/hyperframes": {
-    "source": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
-    "zh": "真正可編輯的 AI 影片。HyperFrames 是一款免費開源的 AI 影片編輯器。描述任何影片，即可取得可逐影格修改的真實專案。"
+    "source": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+    "zh": "開源 AI 影片編輯器：編輯你自己的素材，或使用 Claude Code、Codex 或免費的 Studio 應用程式建立及重製任何影片。撰寫 HTML，輸出為 MP4。由 HeyGen 開發。"
   },
   "huami1314/GestaltX": {
     "source": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
@@ -384,8 +384,8 @@
     "zh": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。"
   },
   "mjmirza/app-store-compliance": {
-    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-    "zh": "避開常見的 App Store 與 Google Play 上架退件原因。提供開放式操作手冊與上架前檢查工具，內含 124 種已記錄的退件模式與修正方式、隱私權清單與 Data safety 檢查、111 項追蹤中的期限（EU AI Act、DSA、COPPA、年齡相關法規），以及供 AI 編碼代理使用的技能。"
+    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "zh": "避免常見的 App Store 與 Google Play 審核遭拒情形。提供公開的操作手冊與送審前檢查工具，內含 124 種已記錄的遭拒模式與修正方法、隱私權清單與資料安全性檢查，以及 112 項追蹤中的期限（歐盟 AI 法案、DSA、COPPA、年齡相關法規），並附供 AI 程式設計代理使用的技能。"
   },
   "modelflare-ai/AnyModelBot": {
     "source": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
@@ -560,8 +560,8 @@
     "zh": "Leonida 是 Grand Theft Auto 6 Xbox 版的原生 PC 重新編譯版本。"
   },
   "XinaTian/MROffice": {
-    "source": "MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors. https://mroffice.ai",
-    "zh": "MR Office：開源的文件、試算表、簡報、PDF、手寫及程式碼編輯器。https://mroffice.ai"
+    "source": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
+    "zh": "MR Office——最接近 Microsoft Office 的 AI 辦公套件開源編輯器：在瀏覽器中處理文件、試算表、簡報、PDF 與程式碼。每個編輯器內的 Copilot 都能與你一同編輯實際的 Word、Excel 與 PowerPoint 檔案；MCP 伺服器讓 Claude、ChatGPT、Cursor 與 Codex 建立及編輯這些檔案；只要一行程式碼即可嵌入你的應用程式。"
   },
   "havenicec/google-qr-sms-helper": {
     "source": "Chrome Extension (MV3) to switch Google's mandatory QR code verification back to standard 6-digit SMS verification via iPad Mini profile & [3,null,4] RPC fallback.",
@@ -574,5 +574,29 @@
   "sybil-solutions/inference-optimisation-skill": {
     "source": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
     "zh": "用於在任何硬體與量化格式上逐步優化本地 LLM 服務速度（解碼、推測解碼、預填充、KV、啟動、TTFT）的 Agent 技能"
+  },
+  "EL4CTEO/fast-anything": {
+    "source": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+    "zh": "不要用 Rust 重寫整個程式。只重寫那 5% 的慢速部分：對 Python、Node 或 Ruby 應用程式做效能分析，請你的程式設計代理把熱點函式移植過去，並驗證行為一致。"
+  },
+  "Renly1994/xiaotang-daozai": {
+    "source": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。",
+    "zh": "島仔 Daozai：以 Rust 建構的 Windows 桌面資訊島。音樂歌詞、郵件驗證碼、行程提醒、待辦事項與 AI 額度，讓重要資訊輕輕出現在螢幕頂端。"
+  },
+  "adriadam10/mkw-recomp": {
+    "source": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
+    "zh": "將《Mario Kart World》（Nintendo Switch 2）靜態重新編譯為原生 PC 程式"
+  },
+  "atuizz/posewear": {
+    "source": "姿势、服装、人像参考图库，附中英文提示词，可在浏览器里 AI 试穿 · Pose, outfit & portrait reference library with bilingual prompts and in-browser AI try-on",
+    "zh": "姿勢、服裝、人像參考圖庫，附中英文提示詞，可在瀏覽器中以 AI 試穿"
+  },
+  "haziqahmedqasmi/PeakCut": {
+    "source": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+    "zh": "適用於長影片與直播的 AI 剪輯工具。可自行架設，使用你自己的 AI 金鑰。"
+  },
+  "voyager-so/vork": {
+    "source": "Headless 3D and VFX engine for agents. Research preview.",
+    "zh": "供代理使用的無頭 3D 與視覺特效引擎。研究預覽版。"
   }
 }
