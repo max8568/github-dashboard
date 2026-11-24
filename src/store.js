@@ -6,6 +6,11 @@ function daysBetween(from, to) {
   return Math.round((Date.parse(to) - Date.parse(from)) / DAY_MS);
 }
 
+// Daily counts are start-of-day snapshots, so a run is labeled with the nearest UTC midnight.
+export function snapshotDate(now = Date.now()) {
+  return new Date(now + DAY_MS / 2).toISOString().slice(0, 10);
+}
+
 export function addCandidates(watchlist, names, priority, today) {
   const out = { ...watchlist };
   for (const name of names) {

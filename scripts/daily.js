@@ -1,4 +1,4 @@
-import { addCandidates, pruneWatchlist, recordCounts, readJson, writeJson } from "../src/store.js";
+import { addCandidates, pruneWatchlist, recordCounts, readJson, snapshotDate, writeJson } from "../src/store.js";
 import { computeRankings } from "../src/rank.js";
 import { fetchTrending, searchNewRepos } from "../src/sources.js";
 import { fetchRepoInfo } from "../src/github.js";
@@ -10,7 +10,7 @@ if (!token) {
   process.exit(1);
 }
 
-const today = new Date().toISOString().slice(0, 10);
+const today = snapshotDate();
 let warnings = 0;
 
 let watchlist = readJson("data/watchlist.json");

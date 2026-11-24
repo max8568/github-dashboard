@@ -49,3 +49,11 @@ test("readJson/writeJson round-trip with 2-space indent and trailing newline", a
   assert.equal(readFileSync(p, "utf8"), '{\n  "a": 1\n}\n');
   assert.deepEqual(readJson(p), { a: 1 });
 });
+
+test("snapshotDate labels a run with the nearest UTC midnight", async () => {
+  const { snapshotDate } = await import("../src/store.js");
+  // 03:47 Taiwan on 11/25 = 19:47 UTC on 11/24 → start of 11/25
+  assert.equal(snapshotDate(Date.parse("2026-11-24T19:47:00Z")), "2026-11-25");
+  // the same run delayed 8 hours still lands on 11/25
+  assert.equal(snapshotDate(Date.parse("2026-11-25T03:47:00Z")), "2026-11-25");
+});
