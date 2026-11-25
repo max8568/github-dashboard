@@ -268,8 +268,8 @@
     "zh": "使用 Univer Office SDK 打造你自己的 AI 辦公室。將編輯、計算、協作與檔案處理整合進你的產品，供人員與 AI Agent 使用。基於可擴充的開源核心建構。"
   },
   "elementalsouls/Claude-BugHunter": {
-    "source": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-    "zh": "用於漏洞挖掘與外部紅隊作業的 Claude Code 技能套件：82 項技能、15 個斜線指令，收錄 24 種核心漏洞類別中精選的 681 種已公開揭露報告模式，並附企業身分與基礎設施攻擊矩陣。"
+    "source": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "zh": "用於漏洞挖掘與外部紅隊工作的 Claude Code 技能套件——包含 84 項技能、15 個斜線指令，以及針對 24 個核心漏洞類別整理的 681 種已揭露報告模式，另含企業身分與基礎設施攻擊矩陣。"
   },
   "elripalda/RecompLauncher": {
     "source": "PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.",
@@ -512,8 +512,8 @@
     "zh": "供 AI Agent 使用的瀏覽器自動化命令列工具"
   },
   "vercel-labs/ui": {
-    "source": "A library of behaviors for agents to build the next generation of user interfaces.",
-    "zh": "一套供 Agent 使用的行為函式庫，用於打造下一代使用者介面。"
+    "source": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
+    "zh": "供代理程式建構並驅動下一代使用者介面的行為函式庫。"
   },
   "wangzan101/Mika": {
     "source": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
@@ -598,5 +598,81 @@
   "voyager-so/vork": {
     "source": "Headless 3D and VFX engine for agents. Research preview.",
     "zh": "供代理使用的無頭 3D 與視覺特效引擎。研究預覽版。"
+  },
+  "4lwayz/portwatch-vi": {
+    "source": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+    "zh": "GTA VI 現在能在 PC 上運行了嗎？社群重新編譯與模擬器相關進展的即時追蹤，每日更新。"
+  },
+  "AFK-surf/xnulinux": {
+    "source": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+    "zh": "將 XNU 以可載入核心模組的形式運行於 Linux 內（為 arm64 Linux 提供 macOS 相容層）"
+  },
+  "AhmadHassan-BTed/RainGen-RainGenerator": {
+    "source": "This repository will be used to develop a rain generator, actually it use white noises to simulate wind and have an integrated thunderstorm simulator.",
+    "zh": "此儲存庫將用於開發雨聲產生器，實際上它以白噪音模擬風聲，並內建雷暴模擬器。"
+  },
+  "Ebony-Vinyl/dsh-our-free-model": {
+    "source": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+    "zh": "在 dsh 裡安裝這個外掛即可，無需登入、註冊或填寫 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在內的前沿模型——完全免費，不限量。"
+  },
+  "Goblinmine/homelab-diagram": {
+    "source": "Renders an r/homelab-style network diagram from a YAML inventory (Python → SVG/PNG). Written with Claude.",
+    "zh": "依據 YAML 清單繪製 r/homelab 風格的網路拓撲圖（Python → SVG/PNG）。使用 Claude 撰寫。"
+  },
+  "Marvisak/VIctory": {
+    "source": "An attempt at running GTA VI on PC",
+    "zh": "嘗試在 PC 上運行 GTA VI"
+  },
+  "R0Y00/Xbox2Windows": {
+    "source": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+    "zh": "在 x64 Windows 上針對 Xbox Series X|S 軟體進行靜態重新編譯研究，附帶從原始碼建置的 CPU 與 GPU 測試。完整遊戲啟動尚未驗證。"
+  },
+  "RunanywhereAI/trnrt": {
+    "source": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere.",
+    "zh": "適用於 AWS Trainium 的開源 LLM 推論引擎：NKI 巨型核心、100 萬詞元上下文、相容 OpenAI 的 API。由 RunAnywhere 開發。"
+  },
+  "fxceless/victory-fork": {
+    "source": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files.",
+    "zh": "VIctory 的開發中分支：讓 Xbox Series 遊戲在 Windows PC 上渲染並運行。不含遊戲檔案。"
+  },
+  "joshpuckett/allo": {
+    "source": "Allo is your friendly neighborhood typeface, free and open source",
+    "zh": "Allo 是您身邊友善的字型，免費且開源。"
+  },
+  "livliv-dev/player": {
+    "source": "A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+    "zh": "輕量級網頁 2.5D 角色播放器，支援口型同步與網路攝影機臉部追蹤。"
+  },
+  "omonkeyz/xbox-emulator": {
+    "source": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+    "zh": "在 PC 上運行 Xbox Series X|S 版本的進度筆記（TomBox + rage9）"
+  },
+  "os6/nospeaker": {
+    "source": "make your macbook's trackpad talk using its haptic motor",
+    "zh": "利用觸覺馬達讓你的 MacBook 觸控板「說話」。"
+  },
+  "pierridotite/mobile-agent-testers": {
+    "source": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+    "zh": "在 GitHub 免費 runners 上同時以 20 支不同手機運行 20 名 AI 測試員：Claude Code 代理程式在 iOS 模擬器與 Android 模擬器上，找出流程中斷、翻譯、版面配置與無障礙功能的錯誤。"
+  },
+  "pithings/unkernel": {
+    "source": "A real Linux kernel, compiled to WebAssembly. It boots to a shell in less than a second.",
+    "zh": "編譯為 WebAssembly 的真正 Linux 核心，不到一秒即可開機進入 shell。"
+  },
+  "ubiquitarianism/leonida": {
+    "source": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+    "zh": "Leonida 的延續，為 GTA VI 的 Xbox 到 PC 移植介面。"
+  },
+  "woniuniuniu/dsh-media-desk": {
+    "source": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜",
+    "zh": "DeepSeek Harness 自媒體工作台外掛：一句話記靈感，一鍵生成腳本、封面、配圖與分鏡"
+  },
+  "xcl-dev/xcl": {
+    "source": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+    "zh": "適用於 Windows 的 Xbox Series 相容層——原生運行主機遊戲程式碼，重新實作主機系統函式庫，並將 RDNA2 著色器重新編譯為 DXIL。"
+  },
+  "yetone/magpie": {
+    "source": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+    "zh": "所有代理程式的模型，一處搞定。在 DeepSeek 上運行 Codex、在 Kimi 上運行 Claude Code，從選單列即可切換。"
   }
 }
