@@ -268,8 +268,8 @@
     "zh": "使用 Univer Office SDK 打造你自己的 AI 辦公室。將編輯、計算、協作與檔案處理整合進你的產品，供人員與 AI Agent 使用。基於可擴充的開源核心建構。"
   },
   "elementalsouls/Claude-BugHunter": {
-    "source": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-    "zh": "用於漏洞挖掘與外部紅隊工作的 Claude Code 技能套件——包含 84 項技能、15 個斜線指令，以及針對 24 個核心漏洞類別整理的 681 種已揭露報告模式，另含企業身分與基礎設施攻擊矩陣。"
+    "source": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+    "zh": "用於漏洞獵捕與外部紅隊作業的 Claude Code 技能套件，包含 85 項技能、16 個斜線指令，以及從 24 個核心漏洞類別中整理的 681 則已公開揭露報告模式，另附企業身分與基礎設施攻擊矩陣。"
   },
   "elripalda/RecompLauncher": {
     "source": "PC recomps, all in one place. Find, install, update and play PC recomps from one launcher.",
@@ -384,8 +384,8 @@
     "zh": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。"
   },
   "mjmirza/app-store-compliance": {
-    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-    "zh": "避免常見的 App Store 與 Google Play 審核遭拒情形。提供公開的操作手冊與送審前檢查工具，內含 124 種已記錄的遭拒模式與修正方法、隱私權清單與資料安全性檢查，以及 112 項追蹤中的期限（歐盟 AI 法案、DSA、COPPA、年齡相關法規），並附供 AI 程式設計代理使用的技能。"
+    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "zh": "協助避開 App Store 與 Google Play 常見的審核退件問題。開放式操作手冊與送審前檢查工具，收錄 124 種已記錄的退件模式與修正方式、隱私權清單與資料安全性檢查、114 個追蹤中的期限（歐盟 AI 法、DSA、COPPA、年齡相關法規），並附一項供 AI 程式設計代理使用的技能。"
   },
   "modelflare-ai/AnyModelBot": {
     "source": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
@@ -674,5 +674,25 @@
   "yetone/magpie": {
     "source": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
     "zh": "所有代理程式的模型，一處搞定。在 DeepSeek 上運行 Codex、在 Kimi 上運行 Claude Code，從選單列即可切換。"
+  },
+  "Lemxy/WinRust": {
+    "source": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+    "zh": "以 Rust 打造的 Windows 殼層替代方案：工作列、檔案總管、NTFS 搜尋、工作管理員、磁碟清理工具。單一安裝檔 exe。"
+  },
+  "RainBowLuoCS/Gamer": {
+    "source": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agents",
+    "zh": "Gamer 官方實作：適用於長時程即時遊戲代理的通用視覺-語言-動作基礎模型"
+  },
+  "egoist/mygo-music": {
+    "source": "A native music player you extend with plugins",
+    "zh": "一款可透過外掛擴充的原生音樂播放器"
+  },
+  "n8n-io/nod": {
+    "source": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n.",
+    "zh": "開源個人代理，擁有自己的電腦。它會在真實網站上追討發票、幫你準備通話內容、取消試用訂閱，並在採取行動前先詢問你。可在你的電腦上搭配你選擇的模型執行。由 n8n 推出。"
+  },
+  "ybblab/Jiumi": {
+    "source": "揪咪 Jiumi：开源安卓应用行为监测与管理 App，查看权限访问和网络活动。Android app activity & privacy monitor. No root required.",
+    "zh": "揪咪 Jiumi：開源 Android 應用程式行為監測與管理 App，可檢視權限存取與網路活動。Android 應用程式活動與隱私監控工具，無需 root。"
   }
 }
