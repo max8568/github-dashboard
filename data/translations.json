@@ -284,16 +284,16 @@
     "zh": "建立 Apple 風格的 UI 元件尺寸標註圖。"
   },
   "erkamyaman/rust-anything": {
-    "source": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-    "zh": "將整個應用程式以 Rust 重寫，一次一個部分，並在每個步驟對照原始程式所記錄的行為進行驗證。支援以 TypeScript、Python、C、Go、Ruby 與 Java 撰寫的 CLI、HTTP 伺服器與函式庫。"
+    "source": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
+    "zh": "以 Rust 逐步重寫你的應用程式，每一步都與原始版本比對驗證。支援 TypeScript、JavaScript、Python、Go、Ruby、Java、C、PHP、C#、Kotlin 與 PowerShell。"
   },
   "ersinkoc/phonebox": {
     "source": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
     "zh": "將舊的 Android 手機變成可自訂的桌面面板與觸控控制台，支援 Windows、Linux 與 macOS。提供 124 個小工具與 30 個範本，涵蓋系統狀態、AI 程式設計、媒體與自動化，支援 13 種語言。可透過 USB 或已配對的 Wi-Fi 連線，無需雲端。"
   },
   "expo/exact": {
-    "source": "Write an app once. It runs natively on the web, macOS, iOS, and Linux, and an AI agent can build it, run it, see it, and test it on every one of them.",
-    "zh": "一次撰寫應用程式，即可原生執行於網頁、macOS、iOS 與 Linux，AI Agent 還能在各平台上建置、執行、觀看並測試。"
+    "source": "Agent Native, Rust based, high performance way to build apps on web, iOS, macOS, Android, Linux and other platforms. ",
+    "zh": "以 Agent 為原生設計、基於 Rust 的高效能應用程式開發方式，可用於網頁、iOS、macOS、Android、Linux 及其他平台。"
   },
   "firecrawl/firecrawl": {
     "source": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
@@ -384,8 +384,8 @@
     "zh": "開源的 Grok Bot 替代方案，內建供機器人使用的虛擬機。"
   },
   "mjmirza/app-store-compliance": {
-    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
-    "zh": "協助避開 App Store 與 Google Play 常見的審核退件問題。開放式操作手冊與送審前檢查工具，收錄 124 種已記錄的退件模式與修正方式、隱私權清單與資料安全性檢查、114 個追蹤中的期限（歐盟 AI 法、DSA、COPPA、年齡相關法規），並附一項供 AI 程式設計代理使用的技能。"
+    "source": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "zh": "避免常見的 App Store 與 Google Play 審核退件。提供公開的操作手冊與送審前防護機制，內含 125 種已記錄的退件模式與修正方法、隱私權清單與資料安全（Data safety）檢查、117 項追蹤中的截止期限（歐盟 AI 法案、DSA、COPPA、年齡相關法規），以及供 AI 程式設計代理使用的技能。"
   },
   "modelflare-ai/AnyModelBot": {
     "source": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
@@ -532,8 +532,8 @@
     "zh": "即時且在本機搜尋文件、程式碼，甚至截圖內容。免費開源的檔案啟動器，支援 OCR、語意搜尋，以及 MCP Agent 存取。"
   },
   "zhouxiaoka/autoclip": {
-    "source": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
-    "zh": "AutoClip｜一個連結，一鍵出片。開源 AI 影片剪輯桌面工具，可將播客、訪談、課程等長影片自動剪成短影片，產生字幕、封面與發布文案，適用於抖音、小紅書、TikTok、Reels 與 YouTube Shorts。Open-source AI video clipping & content repurposing."
+    "source": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+    "zh": "AutoClip｜開源的 OpusClip 替代方案——本地優先的 AI 剪輯與 MCP 伺服器，零訂閱費用。一個連結，一鍵出片。開源 AI 影片剪輯桌面工具，將 Podcast、訪談、課程等長影片自動剪成短影片，產生字幕、封面與發布文案，適配抖音、小紅書、TikTok、Reels 與 YouTube Shorts。"
   },
   "zortos293/Lichii": {
     "source": "VERY experimental Nintendo Switch 2 emulator",
@@ -580,8 +580,8 @@
     "zh": "不要用 Rust 重寫整個程式。只重寫那 5% 的慢速部分：對 Python、Node 或 Ruby 應用程式做效能分析，請你的程式設計代理把熱點函式移植過去，並驗證行為一致。"
   },
   "Renly1994/xiaotang-daozai": {
-    "source": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。",
-    "zh": "島仔 Daozai：以 Rust 建構的 Windows 桌面資訊島。音樂歌詞、郵件驗證碼、行程提醒、待辦事項與 AI 額度，讓重要資訊輕輕出現在螢幕頂端。"
+    "source": "岛仔 Daozai 是一款用 Rust 构建的 Windows 桌面信息岛。抬眼就能看天气、系统性能、蓝牙电量、音乐歌词、邮件验证码、日程、待办和 AI 额度。内置插件集市，可按需扩展功能。",
+    "zh": "島仔 Daozai 是一款用 Rust 建構的 Windows 桌面資訊島。抬眼就能看天氣、系統效能、藍牙電量、音樂歌詞、郵件驗證碼、行程、待辦事項和 AI 額度。內建外掛市集，可依需求擴充功能。"
   },
   "adriadam10/mkw-recomp": {
     "source": "Static recompilation of Mario Kart World (Nintendo Switch 2) to a native PC program",
@@ -596,8 +596,8 @@
     "zh": "適用於長影片與直播的 AI 剪輯工具。可自行架設，使用你自己的 AI 金鑰。"
   },
   "voyager-so/vork": {
-    "source": "Headless 3D and VFX engine for agents. Research preview.",
-    "zh": "供代理使用的無頭 3D 與視覺特效引擎。研究預覽版。"
+    "source": "Headless 3D, VFX, and motion graphics engine for agents",
+    "zh": "供代理使用的無頭 3D、視覺特效與動態圖形引擎"
   },
   "4lwayz/portwatch-vi": {
     "source": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
@@ -672,8 +672,8 @@
     "zh": "適用於 Windows 的 Xbox Series 相容層——原生運行主機遊戲程式碼，重新實作主機系統函式庫，並將 RDNA2 著色器重新編譯為 DXIL。"
   },
   "yetone/magpie": {
-    "source": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
-    "zh": "所有代理程式的模型，一處搞定。在 DeepSeek 上運行 Codex、在 Kimi 上運行 Claude Code，從選單列即可切換。"
+    "source": "Pool every plan you pay for — Claude, ChatGPT, Copilot, GLM Coding Plan, Kimi Code and more — and use them in any agent: Claude Code, Codex, Claude Desktop… When one runs out, the next takes over.",
+    "zh": "整合你付費的所有方案（Claude、ChatGPT、Copilot、GLM Coding Plan、Kimi Code 等），並在任何代理中使用：Claude Code、Codex、Claude Desktop……當一個額度用完時，自動切換至下一個。"
   },
   "Lemxy/WinRust": {
     "source": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
@@ -694,5 +694,25 @@
   "ybblab/Jiumi": {
     "source": "揪咪 Jiumi：开源安卓应用行为监测与管理 App，查看权限访问和网络活动。Android app activity & privacy monitor. No root required.",
     "zh": "揪咪 Jiumi：開源 Android 應用程式行為監測與管理 App，可檢視權限存取與網路活動。Android 應用程式活動與隱私監控工具，無需 root。"
+  },
+  "INK-Q/agy-fast": {
+    "source": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+    "zh": "適用於 Google Antigravity（CLI/Desktop/IDE）的非侵入式 MCP 加速外掛：減少 LLM 回合數（-34%）、Token 配額用量（-31%）與上傳流量（-40%），且不影響原生 UI 或 diff。"
+  },
+  "RMvdesi/obsidian-prism": {
+    "source": "Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)",
+    "zh": "適用於 Antigravity 的光學 UI、阻尼彈簧動態編排、512K 淺水試管、像素吉祥物與雙模式思考套件（GPL-3.0）"
+  },
+  "avatarmanz/VIctory-7900XTX": {
+    "source": "Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, lighting), then 30+ fps. Porting, not emulating. RX 7900 XTX first. No game files.",
+    "zh": "目標：在 PC 上以 4K 與光線追蹤運行 Xbox Series 遊戲的 Series X 版本（使用你自己的傾印檔），先讓畫面（材質、光照）與 Xbox 版本一致，再達到 30 fps 以上。採移植而非模擬。優先支援 RX 7900 XTX。不含遊戲檔案。"
+  },
+  "obsidianmd/obsidian-skills": {
+    "source": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas.",
+    "zh": "教你的 AI 代理使用 Obsidian 與開放格式，包括 Markdown、Bases、JSON Canvas。"
+  },
+  "opensetlabs/openset-llm": {
+    "source": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
+    "zh": "在一般 CPU 上快速進行本地 LLM 推論。無需 GPU，僅需 8 GB 記憶體。提供與 OpenAI 相容的伺服器。"
   }
 }
