@@ -576,8 +576,8 @@
     "zh": "用於在任何硬體與量化格式上逐步優化本地 LLM 服務速度（解碼、推測解碼、預填充、KV、啟動、TTFT）的 Agent 技能"
   },
   "EL4CTEO/fast-anything": {
-    "source": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
-    "zh": "不要用 Rust 重寫整個程式。只重寫那 5% 的慢速部分：對 Python、Node 或 Ruby 應用程式做效能分析，請你的程式設計代理把熱點函式移植過去，並驗證行為一致。"
+    "source": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile your app, port the hot functions with your coding agent, prove they behave the same. Python, JS/TS, Ruby, Java, Kotlin, Go, PHP, C/C++, C#, R.",
+    "zh": "不要整個改寫成 Rust，只改寫那 5% 的慢速部分：先分析應用程式的效能，借助程式設計代理把熱點函式移植過去，並驗證行為一致。支援 Python、JS/TS、Ruby、Java、Kotlin、Go、PHP、C/C++、C#、R。"
   },
   "Renly1994/xiaotang-daozai": {
     "source": "岛仔 Daozai 是一款用 Rust 构建的 Windows 桌面信息岛。抬眼就能看天气、系统性能、蓝牙电量、音乐歌词、邮件验证码、日程、待办和 AI 额度。内置插件集市，可按需扩展功能。",
@@ -714,5 +714,57 @@
   "opensetlabs/openset-llm": {
     "source": "Fast local LLM inference on plain CPUs. No GPU, 8 GB of RAM. OpenAI-compatible server.",
     "zh": "在一般 CPU 上快速進行本地 LLM 推論。無需 GPU，僅需 8 GB 記憶體。提供與 OpenAI 相容的伺服器。"
+  },
+  "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+    "source": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+    "zh": "以 Rust 開發的 Windows 原生 YouTube 客戶端，內建 SponsorBlock、DeArrow 與 Return YouTube Dislike"
+  },
+  "DEEIX-AI/Winc": {
+    "source": "Winc is a desktop editor built with Rust and its own rendering engine. It starts in about a tenth of a second, stays light with large files open, and responds to every keystroke and scroll at once.",
+    "zh": "Winc 是以 Rust 和自研渲染引擎打造的桌面編輯器。啟動約需十分之一秒，開啟大型檔案時仍保持輕量，每次按鍵與捲動都能即時回應。"
+  },
+  "Pixel679-cmyk/windows-titlebar-blur-customizer": {
+    "source": "Customize Windows 10 and 11 title bar effects with Aero, Acrylic, Mica and advanced DWM blur effects.",
+    "zh": "使用 Aero、Acrylic、Mica 與進階 DWM 模糊效果，自訂 Windows 10 和 11 的標題列效果。"
+  },
+  "ProjectLeonida/mandy": {
+    "source": "A continuation of Leonida, the Xbox > PC port interface for GTA VI",
+    "zh": "Leonida 的延續版本，這是 GTA VI 的 Xbox 轉 PC 移植介面。"
+  },
+  "Reukix/Reloc": {
+    "source": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)",
+    "zh": "透過本機 loopback 運作的 iOS 配件層級定位模擬器（iAP2 / MFi-v3 / NMEA）"
+  },
+  "VaneAi888/vane-gpt-image-skills": {
+    "source": "GPT Image 2.6 好玩又能用的开源玩法合集，持续更新",
+    "zh": "GPT Image 2.6 好玩又能用的開源玩法合集，持續更新"
+  },
+  "WhiteBr1ck/agy-powertools": {
+    "source": "Antigravity 2.0 原生界面增强插件：界面汉化、类 Codex 紧凑排版与阶段汇报、上下文与缓存监控、会话分支及本地用量面板",
+    "zh": "Antigravity 2.0 原生介面增強外掛：介面漢化、類 Codex 緊湊排版與階段匯報、上下文與快取監控、工作階段分支及本機用量面板"
+  },
+  "alesha-pro/llm.asm": {
+    "source": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+    "zh": "以 100% 純 x86-64 NASM 組合語言實作的 Qwen3-0.6B 推論程式（12 KB）、裸機可開機作業系統（22 KB），以及附即時點字 TUI 的從零開始 Mini-GPT 訓練器（32 KB）。零 C、零 libc、零相依套件。"
+  },
+  "leanprover-community/riemann-hypothesis": {
+    "source": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20) being cleaned up by members of the Lean community.",
+    "zh": "黎曼猜想的 Lean 形式化（Alpöge，2026-11-20），目前由 Lean 社群成員進行整理。"
+  },
+  "nexu-io/opengame": {
+    "source": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+    "zh": "Super Game Agent——AI 代理的 Unity 與 Unreal，附 100 多款可改作的熱門遊戲。讓 20 多種程式設計代理（Claude Code、Codex、DeepSeek 等）化身全端 AI 遊戲工作室。可將 3D 與小遊戲開發並發布到微信、抖音、TikTok、Telegram、itch.io 等平台。"
+  },
+  "qianyiai/KuroCat": {
+    "source": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
+    "zh": "KuroCat——免費開源的 3D/2D 桌面打字貓與 AI 程式設計夥伴（Bongo Cat 替代方案 · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android）｜開源 3D 桌面打字小黑貓與 AI 夥伴"
+  },
+  "trustno1-coder/VIctory-NVIDIA": {
+    "source": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS frame generation 2x-6x, an F1 settings menu and F3 stats panel, open water without dark blocks. Built on many repos combined into one. No game files or NVIDIA files included.",
+    "zh": "針對 NVIDIA RTX 顯示卡調校的 VIctory（Xbox Series 相容層）：Series X 在 2560x1440 下搭配 DLSS，於 RTX 5070 上約 26–30 fps，DLSS 影格生成 2x–6x，F1 設定選單與 F3 統計面板，開放水域無黑色方塊。由多個儲存庫整合而成。不含遊戲檔案或 NVIDIA 檔案。"
+  },
+  "zephyr4123/snug": {
+    "source": "让远程 Mac 在任意设备上获得原生级体验。支持 UU远程、CrossDesk 与向日葵（官方适配版）的显示与触控增强：手机、平板、电脑各有专属屏幕，画面铺满、字号随屏，原生触屏手势，App 资源库。Make your remote Mac native on any device: display and touch enhancements for UU Remote, CrossDesk and Sunlogin (official port), with a dedicated screen for every phone, tablet and computer, native touch gestures and an App Library.",
+    "zh": "讓遠端 Mac 在任意裝置上獲得原生級體驗。支援 UU遠程、CrossDesk 與向日葵（官方適配版）的顯示與觸控增強：手機、平板、電腦各有專屬螢幕，畫面鋪滿、字級隨螢幕調整，原生觸控手勢，App 資源庫。"
   }
 }
